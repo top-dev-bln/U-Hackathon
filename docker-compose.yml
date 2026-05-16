@@ -1,0 +1,73 @@
+services:
+  kafka:
+    image: confluentinc/cp-kafka:7.7.1
+    container_name: uhack-kafka
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093,PLAINTEXT_HOST://0.0.0.0:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,CONTROLLER:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      CLUSTER_ID: uhack-cluster-0000000001
+    healthcheck:
+      test: ["CMD", "kafka-topics", "--bootstrap-server", "localhost:9092", "--list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7.4-alpine
+    container_name: uhack-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  wyscout-mock:
+    build:
+      context: ./mlem
+      dockerfile: Dockerfile.mock
+    container_name: uhack-wyscout-mock
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./mlem/u_cluj_wyscout_mock_match_events_april_2026.json:/app/match.json:ro
+    command: ["-i", "/app/match.json", "-p", "5001", "-s", "10"]
+
+  stats-service:
+    build:
+      context: ./mlem
+      dockerfile: stats_service/Dockerfile
+    container_name: uhack-stats-service
+    depends_on:
+      kafka:
+        condition: service_healthy
+    environment:
+      KAFKA_BOOTSTRAP: kafka:9092
+      IN_TOPIC: wyscout-events
+      OUT_TOPIC: match-stats
+      GROUP_ID: stats-service
+      RECOMPUTE_MS: "2000"
+      PORT: "8000"
+      LOG_LEVEL: INFO
+    ports:
+      - "8000:8000"
+
+volumes:
+  redis-data:

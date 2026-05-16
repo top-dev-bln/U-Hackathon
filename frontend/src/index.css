@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Chivo:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  --uc-red: #E30613;
+  --uc-red-dim: #b8050f;
+}
+
+html, body, #root { height: 100%; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Chivo', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #fafafa;
+  color: #0a0a0a;
+}
+
+.font-display { font-family: 'Barlow Condensed', sans-serif; letter-spacing: -0.01em; }
+.font-mono    { font-family: 'JetBrains Mono', monospace; }
+
+.live-mode {
+  background-color: #050505;
+  color: #ffffff;
+  background-image:
+    radial-gradient(ellipse at top, rgba(227,6,19,0.07), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,0.02), transparent 30%);
+  min-height: 100vh;
+}
+
+.analysis-mode { background: #fafafa; color: #0a0a0a; min-height: 100vh; }
+
+.panel {
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(20,20,20,0.6);
+  backdrop-filter: blur(6px);
+}
+.panel-light { border: 1px solid rgba(0,0,0,0.10); background: #ffffff; }
+
+.chip-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border: 1px solid currentColor;
+  display: inline-block;
+}
+
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(227, 6, 19, 0.6); }
+  50%       { box-shadow: 0 0 0 18px rgba(227, 6, 19, 0); }
+}
+.pulse-red { animation: pulse-red 1.6s ease-out infinite; }
+
+@keyframes slide-down {
+  from { transform: translateY(-100%); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+.slide-down { animation: slide-down 420ms cubic-bezier(0.2, 0.7, 0.2, 1); }
+
+@keyframes fade-up {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+.fade-up { animation: fade-up 320ms ease-out; }
+
+::selection { background: var(--uc-red); color: white; }
+
+.scroll-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); }
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 10px;
+  font-weight: 700;
+}

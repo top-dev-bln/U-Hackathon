@@ -1,0 +1,1778 @@
+﻿{
+    "matchId":  900000000,
+    "teamId":  14,
+    "teamName":  "Universitatea Cluj",
+    "source":  "generated_models",
+    "outputs":  {
+                    "fusion":  {
+                                   "fusionOutput":  {
+                                                        "combinedInsights":  [
+                                                                                 {
+                                                                                     "type":  "risky_build_up",
+                                                                                     "category":  "build_up",
+                                                                                     "severity":  "critical",
+                                                                                     "score":  0.8773,
+                                                                                     "confidence":  0.95,
+                                                                                     "message":  "Build-up actions are unstable and reduce controlled progression.",
+                                                                                     "recommendation":  "Train press-resistant passing triangles with one-touch escape patterns.",
+                                                                                     "players":  [
+                                                                                                     "A. Gorcea",
+                                                                                                     "L. Cristea",
+                                                                                                     "A. Miron",
+                                                                                                     "D. Popa"
+                                                                                                 ],
+                                                                                     "evidence":  {
+                                                                                                      "baselineSignals":  [
+                                                                                                                              "build_up.low_progressive_pass_success",
+                                                                                                                              "build_up.low_success_entering_final_third"
+                                                                                                                          ],
+                                                                                                      "decisionSignals":  [
+                                                                                                                              "improvable_phase",
+                                                                                                                              "low_decision_phases",
+                                                                                                                              "player_needs_support"
+                                                                                                                          ]
+                                                                                                  }
+                                                                                 },
+                                                                                 {
+                                                                                     "type":  "risky_ball_loss",
+                                                                                     "category":  "ball_loss",
+                                                                                     "severity":  "medium",
+                                                                                     "score":  0.5231,
+                                                                                     "confidence":  0.5,
+                                                                                     "message":  "Ball retention risk is high and creates transition exposure.",
+                                                                                     "recommendation":  "Add constrained rondo and own-half exit drills under directional pressure.",
+                                                                                     "players":  [
+
+                                                                                                 ],
+                                                                                     "evidence":  {
+                                                                                                      "baselineSignals":  [
+                                                                                                                              "ball_loss.dangerous_own_half_losses",
+                                                                                                                              "ball_loss.high_ball_losses",
+                                                                                                                              "ball_loss.risky_losses_in_own_half"
+                                                                                                                          ],
+                                                                                                      "decisionSignals":  [
+
+                                                                                                                          ]
+                                                                                                  }
+                                                                                 },
+                                                                                 {
+                                                                                     "type":  "risky_pressing",
+                                                                                     "category":  "pressing",
+                                                                                     "severity":  "low",
+                                                                                     "score":  0.2213,
+                                                                                     "confidence":  0.1667,
+                                                                                     "message":  "Pressing effectiveness is below tactical target.",
+                                                                                     "recommendation":  "Drill coordinated counterpressing with first-5-second recovery targets.",
+                                                                                     "players":  [
+
+                                                                                                 ],
+                                                                                     "evidence":  {
+                                                                                                      "baselineSignals":  [
+                                                                                                                              "pressing.few_high_recoveries"
+                                                                                                                          ],
+                                                                                                      "decisionSignals":  [
+
+                                                                                                                          ]
+                                                                                                  }
+                                                                                 },
+                                                                                 {
+                                                                                     "type":  "risky_final_third",
+                                                                                     "category":  "final_third",
+                                                                                     "severity":  "low",
+                                                                                     "score":  0.1522,
+                                                                                     "confidence":  0.95,
+                                                                                     "message":  "Final-third decisions reduce conversion probability.",
+                                                                                     "recommendation":  "Use shot selection circuits with pre-shot scan constraints.",
+                                                                                     "players":  [
+                                                                                                     "A. Chipciu",
+                                                                                                     "A. Miron",
+                                                                                                     "D. Nistor",
+                                                                                                     "D. Oancea"
+                                                                                                 ],
+                                                                                     "evidence":  {
+                                                                                                      "baselineSignals":  [
+
+                                                                                                                          ],
+                                                                                                      "decisionSignals":  [
+                                                                                                                              "improvable_phase",
+                                                                                                                              "low_decision_phases",
+                                                                                                                              "missed_shot_or_goal_opportunity",
+                                                                                                                              "player_needs_support"
+                                                                                                                          ]
+                                                                                                  }
+                                                                                 },
+                                                                                 {
+                                                                                     "type":  "risky_progression",
+                                                                                     "category":  "progression",
+                                                                                     "severity":  "low",
+                                                                                     "score":  0.1273,
+                                                                                     "confidence":  0.5,
+                                                                                     "message":  "Progression quality is inconsistent and limits vertical threat.",
+                                                                                     "recommendation":  "Run third-man progression patterns with carry-vs-pass decision triggers.",
+                                                                                     "players":  [
+                                                                                                     "A. Chipciu"
+                                                                                                 ],
+                                                                                     "evidence":  {
+                                                                                                      "baselineSignals":  [
+
+                                                                                                                          ],
+                                                                                                      "decisionSignals":  [
+                                                                                                                              "improvable_phase",
+                                                                                                                              "low_decision_phases"
+                                                                                                                          ]
+                                                                                                  }
+                                                                                 }
+                                                                             ],
+                                                        "playerPriorities":  [
+                                                                                 {
+                                                                                     "player":  "A. Gorcea",
+                                                                                     "priority_score":  0.6836,
+                                                                                     "reasons":  [
+                                                                                                     "improvable_phase",
+                                                                                                     "player_needs_support"
+                                                                                                 ],
+                                                                                     "focus_categories":  [
+                                                                                                              "build_up"
+                                                                                                          ],
+                                                                                     "recommendedAction":  "Review build-up decisions under pressure."
+                                                                                 },
+                                                                                 {
+                                                                                     "player":  "I. Stoica",
+                                                                                     "priority_score":  0.6766,
+                                                                                     "reasons":  [
+                                                                                                     "player_needs_support"
+                                                                                                 ],
+                                                                                     "focus_categories":  [
+                                                                                                              "build_up"
+                                                                                                          ],
+                                                                                     "recommendedAction":  "Review build-up decisions under pressure."
+                                                                                 },
+                                                                                 {
+                                                                                     "player":  "A. Miron",
+                                                                                     "priority_score":  0.6669,
+                                                                                     "reasons":  [
+                                                                                                     "improvable_phase",
+                                                                                                     "player_needs_support"
+                                                                                                 ],
+                                                                                     "focus_categories":  [
+                                                                                                              "build_up",
+                                                                                                              "final_third"
+                                                                                                          ],
+                                                                                     "recommendedAction":  "Review build-up decisions under pressure."
+                                                                                 },
+                                                                                 {
+                                                                                     "player":  "M. Thiam",
+                                                                                     "priority_score":  0.5958,
+                                                                                     "reasons":  [
+                                                                                                     "player_needs_support"
+                                                                                                 ],
+                                                                                     "focus_categories":  [
+                                                                                                              "build_up"
+                                                                                                          ],
+                                                                                     "recommendedAction":  "Review build-up decisions under pressure."
+                                                                                 },
+                                                                                 {
+                                                                                     "player":  "A. Chipciu",
+                                                                                     "priority_score":  0.5657,
+                                                                                     "reasons":  [
+                                                                                                     "improvable_phase",
+                                                                                                     "missed_shot_or_goal_opportunity"
+                                                                                                 ],
+                                                                                     "focus_categories":  [
+                                                                                                              "final_third",
+                                                                                                              "progression"
+                                                                                                          ],
+                                                                                     "recommendedAction":  "Review final-third pass/shot selection in constrained scenarios."
+                                                                                 }
+                                                                             ],
+                                                        "trainingFocus":  [
+                                                                              {
+                                                                                  "category":  "build_up",
+                                                                                  "priority":  "critical",
+                                                                                  "objective":  "Increase pass security under pressure",
+                                                                                  "drill":  "6v4 build-up under press with mandatory support angles"
+                                                                              },
+                                                                              {
+                                                                                  "category":  "ball_loss",
+                                                                                  "priority":  "medium",
+                                                                                  "objective":  "Reduce dangerous turnovers in own half",
+                                                                                  "drill":  "Directional rondo with immediate transition punishment"
+                                                                              },
+                                                                              {
+                                                                                  "category":  "pressing",
+                                                                                  "priority":  "low",
+                                                                                  "objective":  "Increase high recoveries after loss",
+                                                                                  "drill":  "Counterpressing wave drill with compactness scoring"
+                                                                              }
+                                                                          ]
+                                                    },
+                                   "frontendOutput":  {
+                                                          "headline":  "Build-up instability is the main tactical risk",
+                                                          "topProblems":  [
+                                                                              {
+                                                                                  "type":  "risky_build_up",
+                                                                                  "severity":  "critical",
+                                                                                  "message":  "Build-up actions are unstable and reduce controlled progression.",
+                                                                                  "score":  0.8773
+                                                                              },
+                                                                              {
+                                                                                  "type":  "risky_ball_loss",
+                                                                                  "severity":  "medium",
+                                                                                  "message":  "Ball retention risk is high and creates transition exposure.",
+                                                                                  "score":  0.5231
+                                                                              },
+                                                                              {
+                                                                                  "type":  "risky_pressing",
+                                                                                  "severity":  "low",
+                                                                                  "message":  "Pressing effectiveness is below tactical target.",
+                                                                                  "score":  0.2213
+                                                                              }
+                                                                          ],
+                                                          "recommendations":  [
+                                                                                  "Train press-resistant passing triangles with one-touch escape patterns.",
+                                                                                  "Add constrained rondo and own-half exit drills under directional pressure.",
+                                                                                  "Drill coordinated counterpressing with first-5-second recovery targets."
+                                                                              ]
+                                                      },
+                                   "meta":  {
+                                                "baselineSignals":  6,
+                                                "decisionSignals":  22,
+                                                "fusedCategories":  5,
+                                                "calibration":  {
+                                                                    "baseline_weight":  0.75,
+                                                                    "decision_weight":  0.25,
+                                                                    "severity_thresholds":  {
+                                                                                                "medium":  0.45,
+                                                                                                "high":  0.6,
+                                                                                                "critical":  0.8
+                                                                                            }
+                                                                }
+                                            }
+                               },
+                    "tacticalBaseline":  {
+                                             "matchId":  900000000,
+                                             "teamId":  14,
+                                             "teamName":  "Universitatea Cluj",
+                                             "baselineModel":  {
+                                                                   "overallWeaknessScore":  0.75,
+                                                                   "riskLevel":  "medium-high",
+                                                                   "tacticalProfile":  "high_loss_low_control",
+                                                                   "clusterId":  1,
+                                                                   "anomalyScore":  0.6527,
+                                                                   "isAnomalous":  true
+                                                               },
+                                             "weaknessSignals":  [
+                                                                     {
+                                                                         "signalId":  "build_up.low_progressive_pass_success",
+                                                                         "category":  "build_up",
+                                                                         "severityScore":  1,
+                                                                         "severity":  "high",
+                                                                         "metric":  "progressivePassSuccessRate",
+                                                                         "value":  0.3913,
+                                                                         "leagueAverage":  0.6908,
+                                                                         "zScore":  -2.8062,
+                                                                         "percentile":  0.72,
+                                                                         "direction":  "higher_is_better"
+                                                                     },
+                                                                     {
+                                                                         "signalId":  "ball_loss.high_ball_losses",
+                                                                         "category":  "ball_loss",
+                                                                         "severityScore":  0.9424,
+                                                                         "severity":  "high",
+                                                                         "metric":  "lossRate",
+                                                                         "value":  0.3753,
+                                                                         "leagueAverage":  0.1871,
+                                                                         "zScore":  2.7052,
+                                                                         "percentile":  98.56,
+                                                                         "direction":  "higher_is_worse"
+                                                                     },
+                                                                     {
+                                                                         "signalId":  "build_up.low_success_entering_final_third",
+                                                                         "category":  "build_up",
+                                                                         "severityScore":  0.8914,
+                                                                         "severity":  "high",
+                                                                         "metric":  "finalThirdPassSuccessRate",
+                                                                         "value":  0.3784,
+                                                                         "leagueAverage":  0.6351,
+                                                                         "zScore":  -2.3371,
+                                                                         "percentile":  1.26,
+                                                                         "direction":  "higher_is_better"
+                                                                     },
+                                                                     {
+                                                                         "signalId":  "ball_loss.dangerous_own_half_losses",
+                                                                         "category":  "ball_loss",
+                                                                         "severityScore":  0.6822,
+                                                                         "severity":  "medium",
+                                                                         "metric":  "dangerousLossRate",
+                                                                         "value":  0.0658,
+                                                                         "leagueAverage":  0.0482,
+                                                                         "zScore":  0.6188,
+                                                                         "percentile":  76.98,
+                                                                         "direction":  "higher_is_worse"
+                                                                     },
+                                                                     {
+                                                                         "signalId":  "ball_loss.risky_losses_in_own_half",
+                                                                         "category":  "ball_loss",
+                                                                         "severityScore":  0.4676,
+                                                                         "severity":  "medium",
+                                                                         "metric":  "ownHalfLossRate",
+                                                                         "value":  0.4408,
+                                                                         "leagueAverage":  0.3352,
+                                                                         "zScore":  1.2415,
+                                                                         "percentile":  86.69,
+                                                                         "direction":  "higher_is_worse"
+                                                                     },
+                                                                     {
+                                                                         "signalId":  "pressing.few_high_recoveries",
+                                                                         "category":  "pressing",
+                                                                         "severityScore":  0.295,
+                                                                         "severity":  "low",
+                                                                         "metric":  "highRecoveryRate",
+                                                                         "value":  0.2255,
+                                                                         "leagueAverage":  0.307,
+                                                                         "zScore":  -0.9425,
+                                                                         "percentile":  17.63,
+                                                                         "direction":  "higher_is_better"
+                                                                     }
+                                                                 ],
+                                             "metricComparisons":  {
+                                                                       "passSuccessRate":  {
+                                                                                               "value":  0.5856,
+                                                                                               "leagueAverage":  0.793,
+                                                                                               "zScore":  -3.3967,
+                                                                                               "percentile":  1.08,
+                                                                                               "status":  "very_weak",
+                                                                                               "direction":  "higher_is_better"
+                                                                                           },
+                                                                       "progressivePassSuccessRate":  {
+                                                                                                          "value":  0.3913,
+                                                                                                          "leagueAverage":  0.6908,
+                                                                                                          "zScore":  -2.8062,
+                                                                                                          "percentile":  0.72,
+                                                                                                          "status":  "very_weak",
+                                                                                                          "direction":  "higher_is_better"
+                                                                                                      },
+                                                                       "finalThirdPassSuccessRate":  {
+                                                                                                         "value":  0.3784,
+                                                                                                         "leagueAverage":  0.6351,
+                                                                                                         "zScore":  -2.3371,
+                                                                                                         "percentile":  1.26,
+                                                                                                         "status":  "very_weak",
+                                                                                                         "direction":  "higher_is_better"
+                                                                                                     },
+                                                                       "forwardPassSuccessRate":  {
+                                                                                                      "value":  0.4275,
+                                                                                                      "leagueAverage":  0.6954,
+                                                                                                      "zScore":  -3.4007,
+                                                                                                      "percentile":  0.54,
+                                                                                                      "status":  "very_weak",
+                                                                                                      "direction":  "higher_is_better"
+                                                                                                  },
+                                                                       "progressivePassShare":  {
+                                                                                                    "value":  0.2624,
+                                                                                                    "leagueAverage":  0.1849,
+                                                                                                    "zScore":  1.9246,
+                                                                                                    "percentile":  95.68,
+                                                                                                    "status":  "very_strong",
+                                                                                                    "direction":  "higher_is_better"
+                                                                                                },
+                                                                       "finalThirdEntryShare":  {
+                                                                                                    "value":  0.1407,
+                                                                                                    "leagueAverage":  0.1308,
+                                                                                                    "zScore":  0.3287,
+                                                                                                    "percentile":  68.35,
+                                                                                                    "status":  "normal",
+                                                                                                    "direction":  "higher_is_better"
+                                                                                                },
+                                                                       "lossRate":  {
+                                                                                        "value":  0.3753,
+                                                                                        "leagueAverage":  0.1871,
+                                                                                        "zScore":  2.7052,
+                                                                                        "percentile":  98.56,
+                                                                                        "status":  "very_weak",
+                                                                                        "direction":  "higher_is_worse"
+                                                                                    },
+                                                                       "ownHalfLossRate":  {
+                                                                                               "value":  0.4408,
+                                                                                               "leagueAverage":  0.3352,
+                                                                                               "zScore":  1.2415,
+                                                                                               "percentile":  86.69,
+                                                                                               "status":  "weak",
+                                                                                               "direction":  "higher_is_worse"
+                                                                                           },
+                                                                       "dangerousLossRate":  {
+                                                                                                 "value":  0.0658,
+                                                                                                 "leagueAverage":  0.0482,
+                                                                                                 "zScore":  0.6188,
+                                                                                                 "percentile":  76.98,
+                                                                                                 "status":  "warning",
+                                                                                                 "direction":  "higher_is_worse"
+                                                                                             },
+                                                                       "shotOnTargetRate":  {
+                                                                                                "value":  0.3,
+                                                                                                "leagueAverage":  0.3498,
+                                                                                                "zScore":  -0.2942,
+                                                                                                "percentile":  38.85,
+                                                                                                "status":  "normal",
+                                                                                                "direction":  "higher_is_better"
+                                                                                            },
+                                                                       "xgPerShot":  {
+                                                                                         "value":  0.097,
+                                                                                         "leagueAverage":  0.1102,
+                                                                                         "zScore":  -0.2422,
+                                                                                         "percentile":  45.86,
+                                                                                         "status":  "normal",
+                                                                                         "direction":  "higher_is_better"
+                                                                                     },
+                                                                       "boxEfficiency":  {
+                                                                                             "value":  0.0571,
+                                                                                             "leagueAverage":  0.0844,
+                                                                                             "zScore":  -0.5252,
+                                                                                             "percentile":  32.55,
+                                                                                             "status":  "normal",
+                                                                                             "direction":  "higher_is_better"
+                                                                                         },
+                                                                       "counterpressingRate":  {
+                                                                                                   "value":  0.4412,
+                                                                                                   "leagueAverage":  0.4796,
+                                                                                                   "zScore":  -0.466,
+                                                                                                   "percentile":  33.81,
+                                                                                                   "status":  "normal",
+                                                                                                   "direction":  "higher_is_better"
+                                                                                               },
+                                                                       "highRecoveryRate":  {
+                                                                                                "value":  0.2255,
+                                                                                                "leagueAverage":  0.307,
+                                                                                                "zScore":  -0.9425,
+                                                                                                "percentile":  17.63,
+                                                                                                "status":  "weak",
+                                                                                                "direction":  "higher_is_better"
+                                                                                            },
+                                                                       "duelSuccessRate":  {
+                                                                                               "value":  0.3737,
+                                                                                               "leagueAverage":  0.3791,
+                                                                                               "zScore":  -0.1033,
+                                                                                               "percentile":  48.02,
+                                                                                               "status":  "normal",
+                                                                                               "direction":  "higher_is_better"
+                                                                                           },
+                                                                       "defensiveDuelSuccessRate":  {
+                                                                                                        "value":  0.1772,
+                                                                                                        "leagueAverage":  0.2238,
+                                                                                                        "zScore":  -0.7334,
+                                                                                                        "percentile":  25,
+                                                                                                        "status":  "warning",
+                                                                                                        "direction":  "higher_is_better"
+                                                                                                    },
+                                                                       "offensiveDuelSuccessRate":  {
+                                                                                                        "value":  0.5231,
+                                                                                                        "leagueAverage":  0.4738,
+                                                                                                        "zScore":  0.6032,
+                                                                                                        "percentile":  71.58,
+                                                                                                        "status":  "normal",
+                                                                                                        "direction":  "higher_is_better"
+                                                                                                    },
+                                                                       "aerialDuelSuccessRate":  {
+                                                                                                     "value":  0.5185,
+                                                                                                     "leagueAverage":  0.4576,
+                                                                                                     "zScore":  0.576,
+                                                                                                     "percentile":  71.58,
+                                                                                                     "status":  "normal",
+                                                                                                     "direction":  "higher_is_better"
+                                                                                                 },
+                                                                       "pressingDuelSuccessRate":  {
+                                                                                                       "value":  0,
+                                                                                                       "leagueAverage":  0,
+                                                                                                       "zScore":  null,
+                                                                                                       "percentile":  null,
+                                                                                                       "status":  "insufficient_data",
+                                                                                                       "direction":  "higher_is_better"
+                                                                                                   }
+                                                                   }
+                                         },
+                    "decisionQuality":  {
+                                            "match":  {
+                                                          "matchId":  99042601,
+                                                          "label":  "FC Universitatea Cluj - FC Hermannstadt, 2-1",
+                                                          "date":  "2026-04-18T17:30:00+03:00",
+                                                          "status":  "played",
+                                                          "venue":  "Cluj Arena",
+                                                          "teams":  [
+                                                                        {
+                                                                            "teamId":  9001,
+                                                                            "teamName":  "FC Universitatea Cluj",
+                                                                            "formation":  "4-2-3-1"
+                                                                        },
+                                                                        {
+                                                                            "teamId":  9010,
+                                                                            "teamName":  "FC Hermannstadt",
+                                                                            "formation":  "4-3-3"
+                                                                        }
+                                                                    ],
+                                                          "teamScope":  "FC Universitatea Cluj"
+                                                      },
+                                            "summary":  {
+                                                            "actionsAnalyzed":  333,
+                                                            "playersAnalyzed":  11,
+                                                            "averageDecisionValue":  0.21379017163566197,
+                                                            "lowDecisionPhases":  85,
+                                                            "phasesWithAlternative":  14,
+                                                            "missedShotOrGoalOpportunities":  5,
+                                                            "lowScoreThresholdUsed":  0.16405904777978939
+                                                        },
+                                            "players":  {
+                                                            "topPerformers":  [
+                                                                                  {
+                                                                                      "player_id":  "1007",
+                                                                                      "player_name":  "D. Nistor",
+                                                                                      "decisionScore":  0.259,
+                                                                                      "actionsAnalyzed":  34,
+                                                                                      "lowScoreActions":  3,
+                                                                                      "suggestedActions":  1,
+                                                                                      "avgPotentialGainOnSuggestions":  0.0544,
+                                                                                      "recommendedDecisionTypeWhenLow":  "pass",
+                                                                                      "bestDecisionType":  "carry",
+                                                                                      "weakDecisionType":  "pass",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1006",
+                                                                                      "player_name":  "O. Bic",
+                                                                                      "decisionScore":  0.2508,
+                                                                                      "actionsAnalyzed":  33,
+                                                                                      "lowScoreActions":  5,
+                                                                                      "suggestedActions":  1,
+                                                                                      "avgPotentialGainOnSuggestions":  0.03,
+                                                                                      "recommendedDecisionTypeWhenLow":  "pass",
+                                                                                      "bestDecisionType":  "pass",
+                                                                                      "weakDecisionType":  "shot",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1009",
+                                                                                      "player_name":  "D. Popa",
+                                                                                      "decisionScore":  0.2429,
+                                                                                      "actionsAnalyzed":  36,
+                                                                                      "lowScoreActions":  5,
+                                                                                      "suggestedActions":  3,
+                                                                                      "avgPotentialGainOnSuggestions":  0.0277,
+                                                                                      "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                      "bestDecisionType":  "carry",
+                                                                                      "weakDecisionType":  "shot",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1002",
+                                                                                      "player_name":  "D. Oancea",
+                                                                                      "decisionScore":  0.2361,
+                                                                                      "actionsAnalyzed":  36,
+                                                                                      "lowScoreActions":  4,
+                                                                                      "suggestedActions":  0,
+                                                                                      "avgPotentialGainOnSuggestions":  0,
+                                                                                      "recommendedDecisionTypeWhenLow":  null,
+                                                                                      "bestDecisionType":  "pass",
+                                                                                      "weakDecisionType":  "shot",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1008",
+                                                                                      "player_name":  "V. Gheorghe",
+                                                                                      "decisionScore":  0.2319,
+                                                                                      "actionsAnalyzed":  38,
+                                                                                      "lowScoreActions":  2,
+                                                                                      "suggestedActions":  0,
+                                                                                      "avgPotentialGainOnSuggestions":  0,
+                                                                                      "recommendedDecisionTypeWhenLow":  null,
+                                                                                      "bestDecisionType":  "shot",
+                                                                                      "weakDecisionType":  "carry",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1005",
+                                                                                      "player_name":  "A. Chipciu",
+                                                                                      "decisionScore":  0.2183,
+                                                                                      "actionsAnalyzed":  26,
+                                                                                      "lowScoreActions":  5,
+                                                                                      "suggestedActions":  3,
+                                                                                      "avgPotentialGainOnSuggestions":  0.0395,
+                                                                                      "recommendedDecisionTypeWhenLow":  "pass",
+                                                                                      "bestDecisionType":  "pass",
+                                                                                      "weakDecisionType":  "shot",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1003",
+                                                                                      "player_name":  "L. Cristea",
+                                                                                      "decisionScore":  0.2031,
+                                                                                      "actionsAnalyzed":  34,
+                                                                                      "lowScoreActions":  10,
+                                                                                      "suggestedActions":  3,
+                                                                                      "avgPotentialGainOnSuggestions":  0.0341,
+                                                                                      "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                      "bestDecisionType":  "shot",
+                                                                                      "weakDecisionType":  "carry",
+                                                                                      "needsDecisionSupport":  false
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1011",
+                                                                                      "player_name":  "M. Thiam",
+                                                                                      "decisionScore":  0.1846,
+                                                                                      "actionsAnalyzed":  28,
+                                                                                      "lowScoreActions":  8,
+                                                                                      "suggestedActions":  0,
+                                                                                      "avgPotentialGainOnSuggestions":  0,
+                                                                                      "recommendedDecisionTypeWhenLow":  null,
+                                                                                      "bestDecisionType":  "shot",
+                                                                                      "weakDecisionType":  "pass",
+                                                                                      "needsDecisionSupport":  true
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1010",
+                                                                                      "player_name":  "I. Stoica",
+                                                                                      "decisionScore":  0.1714,
+                                                                                      "actionsAnalyzed":  27,
+                                                                                      "lowScoreActions":  13,
+                                                                                      "suggestedActions":  0,
+                                                                                      "avgPotentialGainOnSuggestions":  0,
+                                                                                      "recommendedDecisionTypeWhenLow":  null,
+                                                                                      "bestDecisionType":  "shot",
+                                                                                      "weakDecisionType":  "pass",
+                                                                                      "needsDecisionSupport":  true
+                                                                                  },
+                                                                                  {
+                                                                                      "player_id":  "1004",
+                                                                                      "player_name":  "A. Miron",
+                                                                                      "decisionScore":  0.1393,
+                                                                                      "actionsAnalyzed":  29,
+                                                                                      "lowScoreActions":  22,
+                                                                                      "suggestedActions":  2,
+                                                                                      "avgPotentialGainOnSuggestions":  0.0292,
+                                                                                      "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                      "bestDecisionType":  "pass",
+                                                                                      "weakDecisionType":  "shot",
+                                                                                      "needsDecisionSupport":  true
+                                                                                  }
+                                                                              ],
+                                                            "underperformers":  [
+                                                                                    {
+                                                                                        "player_id":  "1001",
+                                                                                        "player_name":  "A. Gorcea",
+                                                                                        "decisionScore":  0.137,
+                                                                                        "actionsAnalyzed":  12,
+                                                                                        "lowScoreActions":  8,
+                                                                                        "suggestedActions":  1,
+                                                                                        "avgPotentialGainOnSuggestions":  0.0473,
+                                                                                        "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "weakDecisionType":  "pass",
+                                                                                        "needsDecisionSupport":  true
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1004",
+                                                                                        "player_name":  "A. Miron",
+                                                                                        "decisionScore":  0.1393,
+                                                                                        "actionsAnalyzed":  29,
+                                                                                        "lowScoreActions":  22,
+                                                                                        "suggestedActions":  2,
+                                                                                        "avgPotentialGainOnSuggestions":  0.0292,
+                                                                                        "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "weakDecisionType":  "shot",
+                                                                                        "needsDecisionSupport":  true
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1010",
+                                                                                        "player_name":  "I. Stoica",
+                                                                                        "decisionScore":  0.1714,
+                                                                                        "actionsAnalyzed":  27,
+                                                                                        "lowScoreActions":  13,
+                                                                                        "suggestedActions":  0,
+                                                                                        "avgPotentialGainOnSuggestions":  0,
+                                                                                        "recommendedDecisionTypeWhenLow":  null,
+                                                                                        "bestDecisionType":  "shot",
+                                                                                        "weakDecisionType":  "pass",
+                                                                                        "needsDecisionSupport":  true
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1011",
+                                                                                        "player_name":  "M. Thiam",
+                                                                                        "decisionScore":  0.1846,
+                                                                                        "actionsAnalyzed":  28,
+                                                                                        "lowScoreActions":  8,
+                                                                                        "suggestedActions":  0,
+                                                                                        "avgPotentialGainOnSuggestions":  0,
+                                                                                        "recommendedDecisionTypeWhenLow":  null,
+                                                                                        "bestDecisionType":  "shot",
+                                                                                        "weakDecisionType":  "pass",
+                                                                                        "needsDecisionSupport":  true
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1003",
+                                                                                        "player_name":  "L. Cristea",
+                                                                                        "decisionScore":  0.2031,
+                                                                                        "actionsAnalyzed":  34,
+                                                                                        "lowScoreActions":  10,
+                                                                                        "suggestedActions":  3,
+                                                                                        "avgPotentialGainOnSuggestions":  0.0341,
+                                                                                        "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                        "bestDecisionType":  "shot",
+                                                                                        "weakDecisionType":  "carry",
+                                                                                        "needsDecisionSupport":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1005",
+                                                                                        "player_name":  "A. Chipciu",
+                                                                                        "decisionScore":  0.2183,
+                                                                                        "actionsAnalyzed":  26,
+                                                                                        "lowScoreActions":  5,
+                                                                                        "suggestedActions":  3,
+                                                                                        "avgPotentialGainOnSuggestions":  0.0395,
+                                                                                        "recommendedDecisionTypeWhenLow":  "pass",
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "weakDecisionType":  "shot",
+                                                                                        "needsDecisionSupport":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1008",
+                                                                                        "player_name":  "V. Gheorghe",
+                                                                                        "decisionScore":  0.2319,
+                                                                                        "actionsAnalyzed":  38,
+                                                                                        "lowScoreActions":  2,
+                                                                                        "suggestedActions":  0,
+                                                                                        "avgPotentialGainOnSuggestions":  0,
+                                                                                        "recommendedDecisionTypeWhenLow":  null,
+                                                                                        "bestDecisionType":  "shot",
+                                                                                        "weakDecisionType":  "carry",
+                                                                                        "needsDecisionSupport":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1002",
+                                                                                        "player_name":  "D. Oancea",
+                                                                                        "decisionScore":  0.2361,
+                                                                                        "actionsAnalyzed":  36,
+                                                                                        "lowScoreActions":  4,
+                                                                                        "suggestedActions":  0,
+                                                                                        "avgPotentialGainOnSuggestions":  0,
+                                                                                        "recommendedDecisionTypeWhenLow":  null,
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "weakDecisionType":  "shot",
+                                                                                        "needsDecisionSupport":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1009",
+                                                                                        "player_name":  "D. Popa",
+                                                                                        "decisionScore":  0.2429,
+                                                                                        "actionsAnalyzed":  36,
+                                                                                        "lowScoreActions":  5,
+                                                                                        "suggestedActions":  3,
+                                                                                        "avgPotentialGainOnSuggestions":  0.0277,
+                                                                                        "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "weakDecisionType":  "shot",
+                                                                                        "needsDecisionSupport":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "player_id":  "1006",
+                                                                                        "player_name":  "O. Bic",
+                                                                                        "decisionScore":  0.2508,
+                                                                                        "actionsAnalyzed":  33,
+                                                                                        "lowScoreActions":  5,
+                                                                                        "suggestedActions":  1,
+                                                                                        "avgPotentialGainOnSuggestions":  0.03,
+                                                                                        "recommendedDecisionTypeWhenLow":  "pass",
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "weakDecisionType":  "shot",
+                                                                                        "needsDecisionSupport":  false
+                                                                                    }
+                                                                                ],
+                                                            "needsSupport":  [
+                                                                                 {
+                                                                                     "player_id":  "1001",
+                                                                                     "player_name":  "A. Gorcea",
+                                                                                     "decisionScore":  0.137,
+                                                                                     "actionsAnalyzed":  12,
+                                                                                     "lowScoreActions":  8,
+                                                                                     "suggestedActions":  1,
+                                                                                     "avgPotentialGainOnSuggestions":  0.0473,
+                                                                                     "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                     "bestDecisionType":  "carry",
+                                                                                     "weakDecisionType":  "pass",
+                                                                                     "needsDecisionSupport":  true
+                                                                                 },
+                                                                                 {
+                                                                                     "player_id":  "1004",
+                                                                                     "player_name":  "A. Miron",
+                                                                                     "decisionScore":  0.1393,
+                                                                                     "actionsAnalyzed":  29,
+                                                                                     "lowScoreActions":  22,
+                                                                                     "suggestedActions":  2,
+                                                                                     "avgPotentialGainOnSuggestions":  0.0292,
+                                                                                     "recommendedDecisionTypeWhenLow":  "carry",
+                                                                                     "bestDecisionType":  "pass",
+                                                                                     "weakDecisionType":  "shot",
+                                                                                     "needsDecisionSupport":  true
+                                                                                 },
+                                                                                 {
+                                                                                     "player_id":  "1010",
+                                                                                     "player_name":  "I. Stoica",
+                                                                                     "decisionScore":  0.1714,
+                                                                                     "actionsAnalyzed":  27,
+                                                                                     "lowScoreActions":  13,
+                                                                                     "suggestedActions":  0,
+                                                                                     "avgPotentialGainOnSuggestions":  0,
+                                                                                     "recommendedDecisionTypeWhenLow":  null,
+                                                                                     "bestDecisionType":  "shot",
+                                                                                     "weakDecisionType":  "pass",
+                                                                                     "needsDecisionSupport":  true
+                                                                                 },
+                                                                                 {
+                                                                                     "player_id":  "1011",
+                                                                                     "player_name":  "M. Thiam",
+                                                                                     "decisionScore":  0.1846,
+                                                                                     "actionsAnalyzed":  28,
+                                                                                     "lowScoreActions":  8,
+                                                                                     "suggestedActions":  0,
+                                                                                     "avgPotentialGainOnSuggestions":  0,
+                                                                                     "recommendedDecisionTypeWhenLow":  null,
+                                                                                     "bestDecisionType":  "shot",
+                                                                                     "weakDecisionType":  "pass",
+                                                                                     "needsDecisionSupport":  true
+                                                                                 }
+                                                                             ]
+                                                        },
+                                            "phases":  {
+                                                           "bestPhases":  [
+                                                                              {
+                                                                                  "event_id":  880000175,
+                                                                                  "minute":  22,
+                                                                                  "second":  17,
+                                                                                  "player_name":  "O. Bic",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.4571,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.4571,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000053,
+                                                                                  "minute":  6,
+                                                                                  "second":  1,
+                                                                                  "player_name":  "D. Popa",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.4293,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.4293,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000213,
+                                                                                  "minute":  26,
+                                                                                  "second":  46,
+                                                                                  "player_name":  "D. Popa",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.4117,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.4117,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000554,
+                                                                                  "minute":  69,
+                                                                                  "second":  6,
+                                                                                  "player_name":  "V. Gheorghe",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.4014,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.4014,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000051,
+                                                                                  "minute":  5,
+                                                                                  "second":  50,
+                                                                                  "player_name":  "O. Bic",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.3951,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.3951,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000061,
+                                                                                  "minute":  7,
+                                                                                  "second":  5,
+                                                                                  "player_name":  "D. Nistor",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.3941,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.3941,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000343,
+                                                                                  "minute":  43,
+                                                                                  "second":  10,
+                                                                                  "player_name":  "O. Bic",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.3936,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.3936,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000671,
+                                                                                  "minute":  83,
+                                                                                  "second":  8,
+                                                                                  "player_name":  "D. Nistor",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "shot",
+                                                                                  "decisionValue":  0.3913,
+                                                                                  "bestDecisionType":  "shot",
+                                                                                  "bestDecisionValue":  0.3913,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000177,
+                                                                                  "minute":  22,
+                                                                                  "second":  32,
+                                                                                  "player_name":  "O. Bic",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.381,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.381,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              },
+                                                                              {
+                                                                                  "event_id":  880000257,
+                                                                                  "minute":  32,
+                                                                                  "second":  22,
+                                                                                  "player_name":  "A. Chipciu",
+                                                                                  "team_name":  "FC Universitatea Cluj",
+                                                                                  "decision":  "pass",
+                                                                                  "decisionValue":  0.3711,
+                                                                                  "bestDecisionType":  "pass",
+                                                                                  "bestDecisionValue":  0.3711,
+                                                                                  "potentialGain":  0,
+                                                                                  "suggestedAlternative":  null,
+                                                                                  "label":  0,
+                                                                                  "actualShotOnTarget":  false,
+                                                                                  "actualGoal":  false
+                                                                              }
+                                                                          ],
+                                                           "improvablePhases":  [
+                                                                                    {
+                                                                                        "event_id":  880000126,
+                                                                                        "minute":  15,
+                                                                                        "second":  43,
+                                                                                        "player_name":  "D. Nistor",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "shot",
+                                                                                        "decisionValue":  0.1502,
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "bestDecisionValue":  0.2047,
+                                                                                        "potentialGain":  0.0544,
+                                                                                        "suggestedAlternative":  "pass",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  true,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000356,
+                                                                                        "minute":  44,
+                                                                                        "second":  54,
+                                                                                        "player_name":  "A. Gorcea",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "pass",
+                                                                                        "decisionValue":  0.112,
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "bestDecisionValue":  0.1593,
+                                                                                        "potentialGain":  0.0473,
+                                                                                        "suggestedAlternative":  "carry",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000592,
+                                                                                        "minute":  73,
+                                                                                        "second":  19,
+                                                                                        "player_name":  "A. Chipciu",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "carry",
+                                                                                        "decisionValue":  0.1479,
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "bestDecisionValue":  0.1901,
+                                                                                        "potentialGain":  0.0421,
+                                                                                        "suggestedAlternative":  "pass",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000510,
+                                                                                        "minute":  63,
+                                                                                        "second":  34,
+                                                                                        "player_name":  "A. Chipciu",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "carry",
+                                                                                        "decisionValue":  0.1501,
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "bestDecisionValue":  0.1918,
+                                                                                        "potentialGain":  0.0417,
+                                                                                        "suggestedAlternative":  "pass",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000511,
+                                                                                        "minute":  63,
+                                                                                        "second":  44,
+                                                                                        "player_name":  "L. Cristea",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "pass",
+                                                                                        "decisionValue":  0.1138,
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "bestDecisionValue":  0.1545,
+                                                                                        "potentialGain":  0.0407,
+                                                                                        "suggestedAlternative":  "carry",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000232,
+                                                                                        "minute":  29,
+                                                                                        "second":  3,
+                                                                                        "player_name":  "L. Cristea",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "pass",
+                                                                                        "decisionValue":  0.1172,
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "bestDecisionValue":  0.1552,
+                                                                                        "potentialGain":  0.038,
+                                                                                        "suggestedAlternative":  "carry",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000109,
+                                                                                        "minute":  13,
+                                                                                        "second":  29,
+                                                                                        "player_name":  "A. Miron",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "pass",
+                                                                                        "decisionValue":  0.122,
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "bestDecisionValue":  0.1568,
+                                                                                        "potentialGain":  0.0348,
+                                                                                        "suggestedAlternative":  "carry",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000445,
+                                                                                        "minute":  55,
+                                                                                        "second":  21,
+                                                                                        "player_name":  "A. Chipciu",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "shot",
+                                                                                        "decisionValue":  0.1456,
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "bestDecisionValue":  0.1802,
+                                                                                        "potentialGain":  0.0346,
+                                                                                        "suggestedAlternative":  "pass",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000678,
+                                                                                        "minute":  83,
+                                                                                        "second":  59,
+                                                                                        "player_name":  "D. Popa",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "pass",
+                                                                                        "decisionValue":  0.1588,
+                                                                                        "bestDecisionType":  "carry",
+                                                                                        "bestDecisionValue":  0.1891,
+                                                                                        "potentialGain":  0.0303,
+                                                                                        "suggestedAlternative":  "carry",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  false,
+                                                                                        "actualGoal":  false
+                                                                                    },
+                                                                                    {
+                                                                                        "event_id":  880000044,
+                                                                                        "minute":  4,
+                                                                                        "second":  57,
+                                                                                        "player_name":  "O. Bic",
+                                                                                        "team_name":  "FC Universitatea Cluj",
+                                                                                        "decision":  "shot",
+                                                                                        "decisionValue":  0.1502,
+                                                                                        "bestDecisionType":  "pass",
+                                                                                        "bestDecisionValue":  0.1802,
+                                                                                        "potentialGain":  0.03,
+                                                                                        "suggestedAlternative":  "pass",
+                                                                                        "label":  0,
+                                                                                        "actualShotOnTarget":  true,
+                                                                                        "actualGoal":  false
+                                                                                    }
+                                                                                ],
+                                                           "missedShotOrGoalOpportunities":  [
+                                                                                                 {
+                                                                                                     "event_id":  880000182,
+                                                                                                     "minute":  22,
+                                                                                                     "second":  59,
+                                                                                                     "player_name":  "D. Oancea",
+                                                                                                     "team_name":  "FC Universitatea Cluj",
+                                                                                                     "decision":  "pass",
+                                                                                                     "decisionValue":  0.3554,
+                                                                                                     "bestDecisionType":  "carry",
+                                                                                                     "bestDecisionValue":  0.3988,
+                                                                                                     "potentialGain":  0.0434,
+                                                                                                     "suggestedAlternative":  null,
+                                                                                                     "label":  0,
+                                                                                                     "actualShotOnTarget":  false,
+                                                                                                     "actualGoal":  false
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "event_id":  880000211,
+                                                                                                     "minute":  26,
+                                                                                                     "second":  33,
+                                                                                                     "player_name":  "A. Chipciu",
+                                                                                                     "team_name":  "FC Universitatea Cluj",
+                                                                                                     "decision":  "carry",
+                                                                                                     "decisionValue":  0.2792,
+                                                                                                     "bestDecisionType":  "pass",
+                                                                                                     "bestDecisionValue":  0.3147,
+                                                                                                     "potentialGain":  0.0355,
+                                                                                                     "suggestedAlternative":  null,
+                                                                                                     "label":  0,
+                                                                                                     "actualShotOnTarget":  false,
+                                                                                                     "actualGoal":  false
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "event_id":  880000191,
+                                                                                                     "minute":  24,
+                                                                                                     "second":  11,
+                                                                                                     "player_name":  "D. Popa",
+                                                                                                     "team_name":  "FC Universitatea Cluj",
+                                                                                                     "decision":  "carry",
+                                                                                                     "decisionValue":  0.2743,
+                                                                                                     "bestDecisionType":  "pass",
+                                                                                                     "bestDecisionValue":  0.3063,
+                                                                                                     "potentialGain":  0.032,
+                                                                                                     "suggestedAlternative":  null,
+                                                                                                     "label":  1,
+                                                                                                     "actualShotOnTarget":  false,
+                                                                                                     "actualGoal":  false
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "event_id":  880000180,
+                                                                                                     "minute":  22,
+                                                                                                     "second":  50,
+                                                                                                     "player_name":  "L. Cristea",
+                                                                                                     "team_name":  "FC Universitatea Cluj",
+                                                                                                     "decision":  "pass",
+                                                                                                     "decisionValue":  0.2702,
+                                                                                                     "bestDecisionType":  "carry",
+                                                                                                     "bestDecisionValue":  0.2964,
+                                                                                                     "potentialGain":  0.0263,
+                                                                                                     "suggestedAlternative":  null,
+                                                                                                     "label":  0,
+                                                                                                     "actualShotOnTarget":  false,
+                                                                                                     "actualGoal":  false
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "event_id":  880000090,
+                                                                                                     "minute":  10,
+                                                                                                     "second":  58,
+                                                                                                     "player_name":  "V. Gheorghe",
+                                                                                                     "team_name":  "FC Universitatea Cluj",
+                                                                                                     "decision":  "pass",
+                                                                                                     "decisionValue":  0.2625,
+                                                                                                     "bestDecisionType":  "carry",
+                                                                                                     "bestDecisionValue":  0.2959,
+                                                                                                     "potentialGain":  0.0334,
+                                                                                                     "suggestedAlternative":  null,
+                                                                                                     "label":  0,
+                                                                                                     "actualShotOnTarget":  false,
+                                                                                                     "actualGoal":  false
+                                                                                                 }
+                                                                                             ]
+                                                       },
+                                            "teamStats":  {
+                                                              "decisionByType":  [
+                                                                                     {
+                                                                                         "decision":  "pass",
+                                                                                         "actions":  259,
+                                                                                         "avgDecisionValue":  0.2168,
+                                                                                         "avgPotentialGain":  0.0057,
+                                                                                         "lowDecisionPhases":  65
+                                                                                     },
+                                                                                     {
+                                                                                         "decision":  "shot",
+                                                                                         "actions":  25,
+                                                                                         "avgDecisionValue":  0.2052,
+                                                                                         "avgPotentialGain":  0.0201,
+                                                                                         "lowDecisionPhases":  9
+                                                                                     },
+                                                                                     {
+                                                                                         "decision":  "carry",
+                                                                                         "actions":  49,
+                                                                                         "avgDecisionValue":  0.2024,
+                                                                                         "avgPotentialGain":  0.0106,
+                                                                                         "lowDecisionPhases":  11
+                                                                                     }
+                                                                                 ],
+                                                              "timeline":  [
+                                                                               {
+                                                                                   "actions":  60,
+                                                                                   "avgDecisionValue":  0.2376,
+                                                                                   "lowDecisionPhases":  12,
+                                                                                   "phasesWithAlternative":  3,
+                                                                                   "minuteBucket":  "0-14"
+                                                                               },
+                                                                               {
+                                                                                   "actions":  59,
+                                                                                   "avgDecisionValue":  0.2364,
+                                                                                   "lowDecisionPhases":  12,
+                                                                                   "phasesWithAlternative":  2,
+                                                                                   "minuteBucket":  "15-29"
+                                                                               },
+                                                                               {
+                                                                                   "actions":  45,
+                                                                                   "avgDecisionValue":  0.2174,
+                                                                                   "lowDecisionPhases":  13,
+                                                                                   "phasesWithAlternative":  2,
+                                                                                   "minuteBucket":  "30-44"
+                                                                               },
+                                                                               {
+                                                                                   "actions":  64,
+                                                                                   "avgDecisionValue":  0.1973,
+                                                                                   "lowDecisionPhases":  18,
+                                                                                   "phasesWithAlternative":  3,
+                                                                                   "minuteBucket":  "45-59"
+                                                                               },
+                                                                               {
+                                                                                   "actions":  48,
+                                                                                   "avgDecisionValue":  0.1913,
+                                                                                   "lowDecisionPhases":  17,
+                                                                                   "phasesWithAlternative":  3,
+                                                                                   "minuteBucket":  "60-74"
+                                                                               },
+                                                                               {
+                                                                                   "actions":  50,
+                                                                                   "avgDecisionValue":  0.2036,
+                                                                                   "lowDecisionPhases":  11,
+                                                                                   "phasesWithAlternative":  1,
+                                                                                   "minuteBucket":  "75-89"
+                                                                               },
+                                                                               {
+                                                                                   "actions":  7,
+                                                                                   "avgDecisionValue":  0.1751,
+                                                                                   "lowDecisionPhases":  2,
+                                                                                   "phasesWithAlternative":  0,
+                                                                                   "minuteBucket":  "90-104"
+                                                                               }
+                                                                           ]
+                                                          }
+                                        },
+                    "playerProfiles":  [
+                                           {
+                                               "match_id":  99042601,
+                                               "period":  "full",
+                                               "player":  {
+                                                              "id":  1009,
+                                                              "name":  "D. Popa",
+                                                              "position":  "AMF"
+                                                          },
+                                               "team":  {
+                                                            "id":  9001,
+                                                            "name":  "FC Universitatea Cluj"
+                                                        },
+                                               "grid":  {
+                                                            "cols":  12,
+                                                            "rows":  8,
+                                                            "cells":  [
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              1,
+                                                                              0,
+                                                                              1,
+                                                                              1,
+                                                                              1,
+                                                                              1
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              3,
+                                                                              5,
+                                                                              2,
+                                                                              1,
+                                                                              1,
+                                                                              2
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              5,
+                                                                              7,
+                                                                              6,
+                                                                              4,
+                                                                              1
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              1,
+                                                                              3,
+                                                                              10,
+                                                                              8,
+                                                                              2,
+                                                                              0
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              1,
+                                                                              0,
+                                                                              1,
+                                                                              1,
+                                                                              1,
+                                                                              1,
+                                                                              0
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                          [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ]
+                                                                      ]
+                                                        },
+                                               "stats":  {
+                                                             "total_touches":  71,
+                                                             "avg_x":  72.86,
+                                                             "avg_y":  45.52,
+                                                             "zones":  {
+                                                                           "def_third":  0,
+                                                                           "mid_third":  20,
+                                                                           "att_third":  51
+                                                                       },
+                                                             "flanks":  {
+                                                                            "left":  10,
+                                                                            "center":  58,
+                                                                            "right":  3
+                                                                        },
+                                                             "receptions":  28
+                                                         }
+                                           }
+                                       ],
+                    "pressing":  {
+                                     "match_id":  99042601,
+                                     "team_id":  9001,
+                                     "period":  "full",
+                                     "teamPressingEfficiency":  0.49,
+                                     "firstHalfEfficiency":  0.47,
+                                     "secondHalfEfficiency":  0.52,
+                                     "intensityDrop":  0.05,
+                                     "insight":  "Pressing was largely ineffective, pressing improved in the second half.",
+                                     "players":  [
+                                                     {
+                                                         "id":  1002,
+                                                         "name":  "D. Oancea",
+                                                         "position":  "RB",
+                                                         "pressingDuels":  6,
+                                                         "won":  4,
+                                                         "efficiency":  0.67,
+                                                         "inOpponentHalf":  0,
+                                                         "intensityDrop":  -0.25
+                                                     },
+                                                     {
+                                                         "id":  1010,
+                                                         "name":  "I. Stoica",
+                                                         "position":  "LAMF",
+                                                         "pressingDuels":  8,
+                                                         "won":  5,
+                                                         "efficiency":  0.62,
+                                                         "inOpponentHalf":  8,
+                                                         "intensityDrop":  0.17
+                                                     },
+                                                     {
+                                                         "id":  1011,
+                                                         "name":  "M. Thiam",
+                                                         "position":  "CF",
+                                                         "pressingDuels":  5,
+                                                         "won":  3,
+                                                         "efficiency":  0.6,
+                                                         "inOpponentHalf":  5,
+                                                         "intensityDrop":  0.75
+                                                     },
+                                                     {
+                                                         "id":  1006,
+                                                         "name":  "O. Bic",
+                                                         "position":  "DMF",
+                                                         "pressingDuels":  10,
+                                                         "won":  5,
+                                                         "efficiency":  0.5,
+                                                         "inOpponentHalf":  3,
+                                                         "intensityDrop":  0.24
+                                                     },
+                                                     {
+                                                         "id":  1005,
+                                                         "name":  "A. Chipciu",
+                                                         "position":  "LB",
+                                                         "pressingDuels":  4,
+                                                         "won":  2,
+                                                         "efficiency":  0.5,
+                                                         "inOpponentHalf":  0,
+                                                         "intensityDrop":  1
+                                                     },
+                                                     {
+                                                         "id":  1003,
+                                                         "name":  "L. Cristea",
+                                                         "position":  "RCB",
+                                                         "pressingDuels":  9,
+                                                         "won":  4,
+                                                         "efficiency":  0.44,
+                                                         "inOpponentHalf":  0,
+                                                         "intensityDrop":  -0.5
+                                                     },
+                                                     {
+                                                         "id":  1007,
+                                                         "name":  "D. Nistor",
+                                                         "position":  "CMF",
+                                                         "pressingDuels":  5,
+                                                         "won":  2,
+                                                         "efficiency":  0.4,
+                                                         "inOpponentHalf":  3,
+                                                         "intensityDrop":  -0.5
+                                                     },
+                                                     {
+                                                         "id":  1004,
+                                                         "name":  "A. Miron",
+                                                         "position":  "LCB",
+                                                         "pressingDuels":  4,
+                                                         "won":  1,
+                                                         "efficiency":  0.25,
+                                                         "inOpponentHalf":  0,
+                                                         "intensityDrop":  -0.5
+                                                     },
+                                                     {
+                                                         "id":  1009,
+                                                         "name":  "D. Popa",
+                                                         "position":  "AMF",
+                                                         "pressingDuels":  1,
+                                                         "won":  0,
+                                                         "efficiency":  0,
+                                                         "inOpponentHalf":  1,
+                                                         "intensityDrop":  0
+                                                     },
+                                                     {
+                                                         "id":  1008,
+                                                         "name":  "V. Gheorghe",
+                                                         "position":  "RAMF",
+                                                         "pressingDuels":  1,
+                                                         "won":  0,
+                                                         "efficiency":  0,
+                                                         "inOpponentHalf":  1,
+                                                         "intensityDrop":  0
+                                                     }
+                                                 ],
+                                     "topPresser":  "D. Oancea"
+                                 },
+                    "passingNetwork":  {
+                                           "match_id":  99042601,
+                                           "team":  {
+                                                        "id":  9010,
+                                                        "name":  "FC Hermannstadt"
+                                                    },
+                                           "period":  "full",
+                                           "cutoff_minute":  60,
+                                           "nodes":  [
+                                                         {
+                                                             "id":  2008,
+                                                             "name":  "A. Ivanov",
+                                                             "position":  "CMF",
+                                                             "x":  59.12,
+                                                             "y":  49.91,
+                                                             "touches":  27
+                                                         },
+                                                         {
+                                                             "id":  2007,
+                                                             "name":  "B. Alhassan",
+                                                             "position":  "DMF",
+                                                             "x":  48.45,
+                                                             "y":  48.23,
+                                                             "touches":  24
+                                                         },
+                                                         {
+                                                             "id":  2004,
+                                                             "name":  "I. Stoica",
+                                                             "position":  "CB",
+                                                             "x":  24.01,
+                                                             "y":  49.97,
+                                                             "touches":  15
+                                                         },
+                                                         {
+                                                             "id":  2006,
+                                                             "name":  "A. Murgia",
+                                                             "position":  "CMF",
+                                                             "x":  53.67,
+                                                             "y":  48.07,
+                                                             "touches":  15
+                                                         },
+                                                         {
+                                                             "id":  2003,
+                                                             "name":  "V. Gaman",
+                                                             "position":  "CB",
+                                                             "x":  26.59,
+                                                             "y":  52.42,
+                                                             "touches":  15
+                                                         },
+                                                         {
+                                                             "id":  2002,
+                                                             "name":  "R. Oprut",
+                                                             "position":  "LB",
+                                                             "x":  26.68,
+                                                             "y":  19.3,
+                                                             "touches":  13
+                                                         },
+                                                         {
+                                                             "id":  2010,
+                                                             "name":  "I. Biceanu",
+                                                             "position":  "LW",
+                                                             "x":  73.34,
+                                                             "y":  23.47,
+                                                             "touches":  12
+                                                         },
+                                                         {
+                                                             "id":  2009,
+                                                             "name":  "S. Balaure",
+                                                             "position":  "RW",
+                                                             "x":  71.95,
+                                                             "y":  72.23,
+                                                             "touches":  12
+                                                         },
+                                                         {
+                                                             "id":  2005,
+                                                             "name":  "P. Medina",
+                                                             "position":  "RB",
+                                                             "x":  32.27,
+                                                             "y":  76.55,
+                                                             "touches":  10
+                                                         },
+                                                         {
+                                                             "id":  2011,
+                                                             "name":  "D. Paraschiv",
+                                                             "position":  "CF",
+                                                             "x":  87.84,
+                                                             "y":  48.7,
+                                                             "touches":  8
+                                                         },
+                                                         {
+                                                             "id":  2001,
+                                                             "name":  "C. Cabuz",
+                                                             "position":  "GK",
+                                                             "x":  6.66,
+                                                             "y":  44.92,
+                                                             "touches":  5
+                                                         }
+                                                     ],
+                                           "edges":  [
+                                                         {
+                                                             "source":  2007,
+                                                             "target":  2006,
+                                                             "weight":  4
+                                                         },
+                                                         {
+                                                             "source":  2008,
+                                                             "target":  2001,
+                                                             "weight":  3
+                                                         },
+                                                         {
+                                                             "source":  2008,
+                                                             "target":  2007,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2004,
+                                                             "target":  2009,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2006,
+                                                             "target":  2008,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2005,
+                                                             "target":  2003,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2008,
+                                                             "target":  2006,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2001,
+                                                             "target":  2006,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2003,
+                                                             "target":  2002,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2008,
+                                                             "target":  2003,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2004,
+                                                             "target":  2007,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2003,
+                                                             "target":  2006,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2007,
+                                                             "target":  2010,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2008,
+                                                             "target":  2011,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2005,
+                                                             "target":  2010,
+                                                             "weight":  2
+                                                         },
+                                                         {
+                                                             "source":  2009,
+                                                             "target":  2004,
+                                                             "weight":  2
+                                                         }
+                                                     ]
+                                       }
+                },
+    "options":  {
+                    "vectorStore":  "faiss",
+                    "rebuild":  true,
+                    "topNPhases":  10,
+                    "includeDebugDocuments":  false
+                }
+}

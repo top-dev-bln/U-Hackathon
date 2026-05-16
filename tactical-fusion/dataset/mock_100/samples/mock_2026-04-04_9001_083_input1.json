@@ -1,0 +1,177 @@
+{
+  "matchId": 99000083,
+  "teamId": 9001,
+  "teamName": "Petrolul Ploiesti",
+  "baselineModel": {
+    "overallWeaknessScore": 0.5153,
+    "riskLevel": "medium",
+    "tacticalProfile": "passive_pressing",
+    "clusterId": 4,
+    "anomalyScore": 0.4916,
+    "isAnomalous": false
+  },
+  "weaknessSignals": [
+    {
+      "signalId": "build_up.finalThirdPassSuccessRate",
+      "category": "build_up",
+      "severityScore": 0.462,
+      "severity": "medium",
+      "metric": "finalThirdPassSuccessRate",
+      "value": 0.2725,
+      "leagueAverage": 0.6004,
+      "zScore": -0.487,
+      "percentile": 27.93,
+      "direction": "higher_is_better"
+    },
+    {
+      "signalId": "ball_loss.lossRate",
+      "category": "ball_loss",
+      "severityScore": 0.6159,
+      "severity": "high",
+      "metric": "lossRate",
+      "value": 0.5686,
+      "leagueAverage": 0.2481,
+      "zScore": 1.0317,
+      "percentile": 17.31,
+      "direction": "higher_is_worse"
+    },
+    {
+      "signalId": "progression.progressivePassSuccessRate",
+      "category": "progression",
+      "severityScore": 0.302,
+      "severity": "low",
+      "metric": "progressivePassSuccessRate",
+      "value": 0.3973,
+      "leagueAverage": 0.2781,
+      "zScore": 0.5257,
+      "percentile": 64.82,
+      "direction": "higher_is_better"
+    },
+    {
+      "signalId": "final_third.shotOnTargetRate",
+      "category": "final_third",
+      "severityScore": 0.1364,
+      "severity": "low",
+      "metric": "shotOnTargetRate",
+      "value": 0.6044,
+      "leagueAverage": 0.4331,
+      "zScore": 1.8188,
+      "percentile": 30.63,
+      "direction": "higher_is_better"
+    },
+    {
+      "signalId": "duels.defensiveDuelSuccessRate",
+      "category": "duels",
+      "severityScore": 0.6351,
+      "severity": "high",
+      "metric": "defensiveDuelSuccessRate",
+      "value": 0.2989,
+      "leagueAverage": 0.4675,
+      "zScore": 0.917,
+      "percentile": 30.98,
+      "direction": "higher_is_better"
+    },
+    {
+      "signalId": "pressing.counterpressingRate",
+      "category": "pressing",
+      "severityScore": 0.6818,
+      "severity": "high",
+      "metric": "counterpressingRate",
+      "value": 0.5379,
+      "leagueAverage": 0.7686,
+      "zScore": 0.3866,
+      "percentile": 69.91,
+      "direction": "higher_is_better"
+    }
+  ],
+  "metricComparisons": {
+    "progressivePassSuccessRate": {
+      "value": 0.6986,
+      "leagueAverage": 0.2021,
+      "zScore": 0.9899,
+      "percentile": 64.69,
+      "status": "low",
+      "direction": "higher_is_better"
+    },
+    "finalThirdPassSuccessRate": {
+      "value": 0.5605,
+      "leagueAverage": 0.1072,
+      "zScore": -2.0844,
+      "percentile": 38.13,
+      "status": "low",
+      "direction": "higher_is_better"
+    },
+    "lossRate": {
+      "value": 0.68,
+      "leagueAverage": 0.6928,
+      "zScore": 2.6325,
+      "percentile": 79.91,
+      "status": "high",
+      "direction": "higher_is_worse"
+    },
+    "ownHalfLossRate": {
+      "value": 0.8428,
+      "leagueAverage": 0.372,
+      "zScore": -0.4902,
+      "percentile": 98.61,
+      "status": "medium",
+      "direction": "higher_is_worse"
+    },
+    "forwardPassSuccessRate": {
+      "value": 0.8458,
+      "leagueAverage": 0.1852,
+      "zScore": 2.9181,
+      "percentile": 18.84,
+      "status": "low",
+      "direction": "higher_is_better"
+    },
+    "xgPerShot": {
+      "value": 0.5858,
+      "leagueAverage": 0.2864,
+      "zScore": 0.3611,
+      "percentile": 14.46,
+      "status": "low",
+      "direction": "higher_is_better"
+    },
+    "boxEfficiency": {
+      "value": 0.238,
+      "leagueAverage": 0.2455,
+      "zScore": -0.0842,
+      "percentile": 55.68,
+      "status": "low",
+      "direction": "higher_is_better"
+    },
+    "duelSuccessRate": {
+      "value": 0.8644,
+      "leagueAverage": 0.5728,
+      "zScore": -2.6141,
+      "percentile": 51.44,
+      "status": "medium",
+      "direction": "higher_is_better"
+    },
+    "aerialDuelSuccessRate": {
+      "value": 0.2997,
+      "leagueAverage": 0.7183,
+      "zScore": 0.125,
+      "percentile": 33.02,
+      "status": "high",
+      "direction": "higher_is_better"
+    },
+    "highRecoveryRate": {
+      "value": 0.0927,
+      "leagueAverage": 0.2858,
+      "zScore": -1.0218,
+      "percentile": 58.24,
+      "status": "high",
+      "direction": "higher_is_better"
+    },
+    "counterpressingRate": {
+      "value": 0.8081,
+      "leagueAverage": 0.3279,
+      "zScore": 1.6533,
+      "percentile": 65.93,
+      "status": "high",
+      "direction": "higher_is_better"
+    }
+  }
+}

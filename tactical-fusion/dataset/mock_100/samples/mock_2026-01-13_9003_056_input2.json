@@ -1,0 +1,393 @@
+{
+  "match": {
+    "matchId": 99000056,
+    "label": "U Craiova 1948 vs FC Universitatea Cluj",
+    "date": "2026-01-13T17:30:00+03:00",
+    "status": "played",
+    "venue": "Stadion Central",
+    "teams": [
+      {
+        "teamId": 9003,
+        "teamName": "U Craiova 1948",
+        "formation": "4-2-3-1"
+      },
+      {
+        "teamId": 9021,
+        "teamName": "Sepsi OSK",
+        "formation": "4-2-3-1"
+      }
+    ],
+    "teamScope": "U Craiova 1948"
+  },
+  "summary": {
+    "actionsAnalyzed": 344,
+    "playersAnalyzed": 11,
+    "averageDecisionValue": 0.232108,
+    "lowDecisionPhases": 128,
+    "phasesWithAlternative": 12,
+    "missedShotOrGoalOpportunities": 3,
+    "lowScoreThresholdUsed": 0.179162
+  },
+  "players": {
+    "needsSupport": [
+      {
+        "player_id": "1005",
+        "player_name": "O. Bic",
+        "decisionScore": 0.2184,
+        "actionsAnalyzed": 27,
+        "lowScoreActions": 16,
+        "suggestedActions": 4,
+        "avgPotentialGainOnSuggestions": 0.0665,
+        "recommendedDecisionTypeWhenLow": "pass",
+        "bestDecisionType": "shot",
+        "weakDecisionType": "carry",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1003",
+        "player_name": "M. Thiam",
+        "decisionScore": 0.233,
+        "actionsAnalyzed": 31,
+        "lowScoreActions": 18,
+        "suggestedActions": 4,
+        "avgPotentialGainOnSuggestions": 0.034,
+        "recommendedDecisionTypeWhenLow": "pass",
+        "bestDecisionType": "shot",
+        "weakDecisionType": "carry",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1000",
+        "player_name": "A. Gorcea",
+        "decisionScore": 0.2451,
+        "actionsAnalyzed": 25,
+        "lowScoreActions": 13,
+        "suggestedActions": 3,
+        "avgPotentialGainOnSuggestions": 0.042,
+        "recommendedDecisionTypeWhenLow": "pass",
+        "bestDecisionType": "pass",
+        "weakDecisionType": "pass",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1007",
+        "player_name": "L. Cristea",
+        "decisionScore": 0.225,
+        "actionsAnalyzed": 25,
+        "lowScoreActions": 12,
+        "suggestedActions": 1,
+        "avgPotentialGainOnSuggestions": 0.0477,
+        "recommendedDecisionTypeWhenLow": "pass",
+        "bestDecisionType": "carry",
+        "weakDecisionType": "shot",
+        "needsDecisionSupport": true
+      }
+    ]
+  },
+  "phases": {
+    "improvablePhases": [
+      {
+        "event_id": 880069069,
+        "minute": 56,
+        "second": 36,
+        "player_name": "D. Oancea",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.1632,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.221,
+        "potentialGain": 0.0579,
+        "suggestedAlternative": "carry",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880033867,
+        "minute": 16,
+        "second": 45,
+        "player_name": "M. Thiam",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2161,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2716,
+        "potentialGain": 0.0555,
+        "suggestedAlternative": "carry",
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880053145,
+        "minute": 13,
+        "second": 0,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.2029,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2556,
+        "potentialGain": 0.0527,
+        "suggestedAlternative": "carry",
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880008240,
+        "minute": 29,
+        "second": 26,
+        "player_name": "A. Miron",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.1905,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.249,
+        "potentialGain": 0.0584,
+        "suggestedAlternative": "shot",
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880076623,
+        "minute": 77,
+        "second": 46,
+        "player_name": "O. Bic",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.2381,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2849,
+        "potentialGain": 0.0468,
+        "suggestedAlternative": "shot",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880024197,
+        "minute": 38,
+        "second": 54,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.1566,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.1808,
+        "potentialGain": 0.0242,
+        "suggestedAlternative": "carry",
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880098376,
+        "minute": 69,
+        "second": 26,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.1733,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2297,
+        "potentialGain": 0.0564,
+        "suggestedAlternative": "pass",
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880099328,
+        "minute": 78,
+        "second": 4,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.1703,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2211,
+        "potentialGain": 0.0509,
+        "suggestedAlternative": "shot",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880021918,
+        "minute": 69,
+        "second": 37,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.207,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2726,
+        "potentialGain": 0.0656,
+        "suggestedAlternative": "pass",
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880073283,
+        "minute": 46,
+        "second": 32,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.1354,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.1907,
+        "potentialGain": 0.0553,
+        "suggestedAlternative": "carry",
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880081253,
+        "minute": 51,
+        "second": 42,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.1693,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2156,
+        "potentialGain": 0.0463,
+        "suggestedAlternative": "pass",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": true
+      }
+    ],
+    "missedShotOrGoalOpportunities": [
+      {
+        "event_id": 880006729,
+        "minute": 37,
+        "second": 0,
+        "player_name": "D. Oancea",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.2885,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.3274,
+        "potentialGain": 0.0389,
+        "suggestedAlternative": null,
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880002508,
+        "minute": 32,
+        "second": 38,
+        "player_name": "A. Chipciu",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2211,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2522,
+        "potentialGain": 0.0311,
+        "suggestedAlternative": null,
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880051697,
+        "minute": 21,
+        "second": 49,
+        "player_name": "A. Gorcea",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.3226,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.3661,
+        "potentialGain": 0.0435,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      }
+    ]
+  },
+  "teamStats": {
+    "decisionByType": [
+      {
+        "decision": "pass",
+        "actions": 167,
+        "avgDecisionValue": 0.2417,
+        "avgPotentialGain": 0.0194,
+        "lowDecisionPhases": 49
+      },
+      {
+        "decision": "carry",
+        "actions": 76,
+        "avgDecisionValue": 0.2294,
+        "avgPotentialGain": 0.0063,
+        "lowDecisionPhases": 5
+      },
+      {
+        "decision": "shot",
+        "actions": 61,
+        "avgDecisionValue": 0.1805,
+        "avgPotentialGain": 0.005,
+        "lowDecisionPhases": 15
+      }
+    ],
+    "timeline": [
+      {
+        "actions": 44,
+        "avgDecisionValue": 0.1939,
+        "lowDecisionPhases": 10,
+        "phasesWithAlternative": 5,
+        "minuteBucket": "0-14"
+      },
+      {
+        "actions": 58,
+        "avgDecisionValue": 0.1848,
+        "lowDecisionPhases": 7,
+        "phasesWithAlternative": 5,
+        "minuteBucket": "15-29"
+      },
+      {
+        "actions": 35,
+        "avgDecisionValue": 0.2011,
+        "lowDecisionPhases": 10,
+        "phasesWithAlternative": 1,
+        "minuteBucket": "30-44"
+      },
+      {
+        "actions": 32,
+        "avgDecisionValue": 0.1667,
+        "lowDecisionPhases": 7,
+        "phasesWithAlternative": 4,
+        "minuteBucket": "45-59"
+      },
+      {
+        "actions": 49,
+        "avgDecisionValue": 0.196,
+        "lowDecisionPhases": 17,
+        "phasesWithAlternative": 0,
+        "minuteBucket": "60-74"
+      },
+      {
+        "actions": 52,
+        "avgDecisionValue": 0.2689,
+        "lowDecisionPhases": 18,
+        "phasesWithAlternative": 0,
+        "minuteBucket": "75-89"
+      },
+      {
+        "actions": 68,
+        "avgDecisionValue": 0.2522,
+        "lowDecisionPhases": 10,
+        "phasesWithAlternative": 3,
+        "minuteBucket": "90-104"
+      }
+    ]
+  }
+}

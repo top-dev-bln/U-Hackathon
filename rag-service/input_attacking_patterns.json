@@ -1,0 +1,32 @@
+{
+  "totalAttacks": 0,
+  "flankBreakdown": {
+    "left": 0,
+    "center": 0,
+    "right": 0
+  },
+  "attackTypes": [
+    {
+      "label": "positional",
+      "count": 0,
+      "withShot": 0,
+      "withGoal": 0,
+      "xgTotal": 0.0
+    }
+  ],
+  "avgXgPerAttack": 0.0,
+  "mostDangerousFlank": "center",
+  "insight": "No attacking sequences recorded.",
+  "players": [
+    {
+      "id": 123,
+      "name": "Player Name",
+      "position": "FW",
+      "attacks": 0,
+      "shots": 0,
+      "xgCreated": 0.0,
+      "preferredFlank": "center"
+    }
+  ],
+  "topAttacker": null
+}

@@ -1,0 +1,486 @@
+{
+  "match": {
+    "matchId": 99000053,
+    "label": "Rapid Bucuresti vs FCSB",
+    "date": "2026-01-04T17:30:00+03:00",
+    "status": "played",
+    "venue": "Rapid-Giulesti",
+    "teams": [
+      {
+        "teamId": 9015,
+        "teamName": "Rapid Bucuresti",
+        "formation": "4-3-3"
+      },
+      {
+        "teamId": 9003,
+        "teamName": "Sepsi OSK",
+        "formation": "4-3-3"
+      }
+    ],
+    "teamScope": "Rapid Bucuresti"
+  },
+  "summary": {
+    "actionsAnalyzed": 264,
+    "playersAnalyzed": 11,
+    "averageDecisionValue": 0.252019,
+    "lowDecisionPhases": 80,
+    "phasesWithAlternative": 23,
+    "missedShotOrGoalOpportunities": 9,
+    "lowScoreThresholdUsed": 0.164631
+  },
+  "players": {
+    "needsSupport": [
+      {
+        "player_id": "1007",
+        "player_name": "L. Cristea",
+        "decisionScore": 0.1556,
+        "actionsAnalyzed": 31,
+        "lowScoreActions": 21,
+        "suggestedActions": 2,
+        "avgPotentialGainOnSuggestions": 0.0293,
+        "recommendedDecisionTypeWhenLow": "pass",
+        "bestDecisionType": "pass",
+        "weakDecisionType": "pass",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1008",
+        "player_name": "A. Chipciu",
+        "decisionScore": 0.1888,
+        "actionsAnalyzed": 16,
+        "lowScoreActions": 9,
+        "suggestedActions": 3,
+        "avgPotentialGainOnSuggestions": 0.0645,
+        "recommendedDecisionTypeWhenLow": "shot",
+        "bestDecisionType": "pass",
+        "weakDecisionType": "carry",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1006",
+        "player_name": "D. Popa",
+        "decisionScore": 0.162,
+        "actionsAnalyzed": 32,
+        "lowScoreActions": 19,
+        "suggestedActions": 2,
+        "avgPotentialGainOnSuggestions": 0.0559,
+        "recommendedDecisionTypeWhenLow": null,
+        "bestDecisionType": "shot",
+        "weakDecisionType": "carry",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1001",
+        "player_name": "A. Miron",
+        "decisionScore": 0.1777,
+        "actionsAnalyzed": 25,
+        "lowScoreActions": 13,
+        "suggestedActions": 2,
+        "avgPotentialGainOnSuggestions": 0.0193,
+        "recommendedDecisionTypeWhenLow": "pass",
+        "bestDecisionType": "shot",
+        "weakDecisionType": "shot",
+        "needsDecisionSupport": true
+      },
+      {
+        "player_id": "1002",
+        "player_name": "I. Stoica",
+        "decisionScore": 0.2891,
+        "actionsAnalyzed": 28,
+        "lowScoreActions": 11,
+        "suggestedActions": 1,
+        "avgPotentialGainOnSuggestions": 0.0236,
+        "recommendedDecisionTypeWhenLow": null,
+        "bestDecisionType": "pass",
+        "weakDecisionType": "pass",
+        "needsDecisionSupport": true
+      }
+    ]
+  },
+  "phases": {
+    "improvablePhases": [
+      {
+        "event_id": 880096850,
+        "minute": 48,
+        "second": 49,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.2011,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2731,
+        "potentialGain": 0.072,
+        "suggestedAlternative": "carry",
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880003680,
+        "minute": 59,
+        "second": 13,
+        "player_name": "A. Gorcea",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.1593,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2218,
+        "potentialGain": 0.0625,
+        "suggestedAlternative": "shot",
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880084145,
+        "minute": 30,
+        "second": 30,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.209,
+        "bestDecisionType": "shot",
+        "bestDecisionValue": 0.2702,
+        "potentialGain": 0.0612,
+        "suggestedAlternative": "shot",
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880002190,
+        "minute": 24,
+        "second": 56,
+        "player_name": "O. Bic",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.1618,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2114,
+        "potentialGain": 0.0496,
+        "suggestedAlternative": "carry",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880021333,
+        "minute": 73,
+        "second": 11,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.2246,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2583,
+        "potentialGain": 0.0337,
+        "suggestedAlternative": "carry",
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880006089,
+        "minute": 58,
+        "second": 26,
+        "player_name": "I. Stoica",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2133,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2533,
+        "potentialGain": 0.04,
+        "suggestedAlternative": "carry",
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880008960,
+        "minute": 91,
+        "second": 13,
+        "player_name": "D. Popa",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.1887,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2549,
+        "potentialGain": 0.0662,
+        "suggestedAlternative": "pass",
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880069438,
+        "minute": 56,
+        "second": 46,
+        "player_name": "I. Stoica",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.1593,
+        "bestDecisionType": "shot",
+        "bestDecisionValue": 0.2155,
+        "potentialGain": 0.0562,
+        "suggestedAlternative": "carry",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880051661,
+        "minute": 76,
+        "second": 43,
+        "player_name": "A. Chipciu",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2287,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2907,
+        "potentialGain": 0.062,
+        "suggestedAlternative": "pass",
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880090186,
+        "minute": 68,
+        "second": 53,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.1257,
+        "bestDecisionType": "shot",
+        "bestDecisionValue": 0.1865,
+        "potentialGain": 0.0608,
+        "suggestedAlternative": "pass",
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      }
+    ],
+    "missedShotOrGoalOpportunities": [
+      {
+        "event_id": 880078242,
+        "minute": 58,
+        "second": 27,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.2151,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2713,
+        "potentialGain": 0.0562,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880007672,
+        "minute": 61,
+        "second": 32,
+        "player_name": "D. Oancea",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.3328,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.3693,
+        "potentialGain": 0.0365,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880076999,
+        "minute": 91,
+        "second": 55,
+        "player_name": "A. Gorcea",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2286,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2826,
+        "potentialGain": 0.054,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880017170,
+        "minute": 59,
+        "second": 46,
+        "player_name": "M. Thiam",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2378,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.2739,
+        "potentialGain": 0.0361,
+        "suggestedAlternative": null,
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880099921,
+        "minute": 10,
+        "second": 53,
+        "player_name": "L. Cristea",
+        "team_name": "TeamScope",
+        "decision": "shot",
+        "decisionValue": 0.2265,
+        "bestDecisionType": "carry",
+        "bestDecisionValue": 0.2506,
+        "potentialGain": 0.0241,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880021645,
+        "minute": 8,
+        "second": 49,
+        "player_name": "D. Nistor",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.3744,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.3987,
+        "potentialGain": 0.0243,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880072642,
+        "minute": 30,
+        "second": 2,
+        "player_name": "O. Bic",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.3507,
+        "bestDecisionType": "pass",
+        "bestDecisionValue": 0.3869,
+        "potentialGain": 0.0362,
+        "suggestedAlternative": null,
+        "label": 0,
+        "actualShotOnTarget": false,
+        "actualGoal": false
+      },
+      {
+        "event_id": 880023584,
+        "minute": 24,
+        "second": 1,
+        "player_name": "I. Stoica",
+        "team_name": "TeamScope",
+        "decision": "pass",
+        "decisionValue": 0.2373,
+        "bestDecisionType": "shot",
+        "bestDecisionValue": 0.2916,
+        "potentialGain": 0.0543,
+        "suggestedAlternative": null,
+        "label": 1,
+        "actualShotOnTarget": true,
+        "actualGoal": true
+      },
+      {
+        "event_id": 880065040,
+        "minute": 10,
+        "second": 3,
+        "player_name": "D. Popa",
+        "team_name": "TeamScope",
+        "decision": "carry",
+        "decisionValue": 0.2332,
+        "bestDecisionType": "shot",
+        "bestDecisionValue": 0.2691,
+        "potentialGain": 0.0359,
+        "suggestedAlternative": null,
+        "label": 0,
+        "actualShotOnTarget": true,
+        "actualGoal": false
+      }
+    ]
+  },
+  "teamStats": {
+    "decisionByType": [
+      {
+        "decision": "pass",
+        "actions": 262,
+        "avgDecisionValue": 0.2749,
+        "avgPotentialGain": 0.0233,
+        "lowDecisionPhases": 7
+      },
+      {
+        "decision": "carry",
+        "actions": 30,
+        "avgDecisionValue": 0.212,
+        "avgPotentialGain": 0.0128,
+        "lowDecisionPhases": 6
+      },
+      {
+        "decision": "shot",
+        "actions": 25,
+        "avgDecisionValue": 0.2755,
+        "avgPotentialGain": 0.0237,
+        "lowDecisionPhases": 5
+      }
+    ],
+    "timeline": [
+      {
+        "actions": 38,
+        "avgDecisionValue": 0.23,
+        "lowDecisionPhases": 7,
+        "phasesWithAlternative": 1,
+        "minuteBucket": "0-14"
+      },
+      {
+        "actions": 46,
+        "avgDecisionValue": 0.2602,
+        "lowDecisionPhases": 6,
+        "phasesWithAlternative": 2,
+        "minuteBucket": "15-29"
+      },
+      {
+        "actions": 37,
+        "avgDecisionValue": 0.2052,
+        "lowDecisionPhases": 7,
+        "phasesWithAlternative": 6,
+        "minuteBucket": "30-44"
+      },
+      {
+        "actions": 27,
+        "avgDecisionValue": 0.2636,
+        "lowDecisionPhases": 11,
+        "phasesWithAlternative": 1,
+        "minuteBucket": "45-59"
+      },
+      {
+        "actions": 56,
+        "avgDecisionValue": 0.1934,
+        "lowDecisionPhases": 11,
+        "phasesWithAlternative": 3,
+        "minuteBucket": "60-74"
+      },
+      {
+        "actions": 35,
+        "avgDecisionValue": 0.2699,
+        "lowDecisionPhases": 4,
+        "phasesWithAlternative": 4,
+        "minuteBucket": "75-89"
+      },
+      {
+        "actions": 34,
+        "avgDecisionValue": 0.2749,
+        "lowDecisionPhases": 4,
+        "phasesWithAlternative": 5,
+        "minuteBucket": "90-104"
+      }
+    ]
+  }
+}

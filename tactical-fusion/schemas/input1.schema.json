@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tactical Baseline Input",
+  "type": "object",
+  "required": [
+    "baselineModel",
+    "weaknessSignals",
+    "metricComparisons"
+  ],
+  "properties": {
+    "baselineModel": {
+      "type": "object",
+      "required": [
+        "overallWeaknessScore",
+        "riskLevel",
+        "tacticalProfile",
+        "anomalyScore"
+      ],
+      "properties": {
+        "overallWeaknessScore": { "type": "number" },
+        "riskLevel": { "type": "string" },
+        "tacticalProfile": { "type": "string" },
+        "anomalyScore": { "type": "number" }
+      }
+    },
+    "weaknessSignals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["signalId", "category", "severityScore", "metric"],
+        "properties": {
+          "signalId": { "type": "string" },
+          "category": { "type": "string" },
+          "severityScore": { "type": "number" },
+          "metric": { "type": "string" }
+        }
+      }
+    },
+    "metricComparisons": {
+      "type": "object"
+    }
+  }
+}

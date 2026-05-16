@@ -1,0 +1,63 @@
+{
+  "selectedModel": "random_forest",
+  "candidateEvaluation": [
+    {
+      "model": "random_forest",
+      "folds": 5,
+      "mean_roc_auc": 0.5626650611832019,
+      "std_roc_auc": 0.026521595109250173,
+      "mean_average_precision": 0.05372335031474425,
+      "mean_brier": 0.07004886683265346
+    },
+    {
+      "model": "mlp",
+      "folds": 5,
+      "mean_roc_auc": 0.5240656575707525,
+      "std_roc_auc": 0.02234727543198992,
+      "mean_average_precision": 0.04817835711958489,
+      "mean_brier": 0.03845654295086073
+    }
+  ],
+  "dataset": {
+    "actionsAnalyzed": 6174,
+    "playersAnalyzed": 121,
+    "positiveLabelCount": 241,
+    "positiveLabelRate": 0.03903466148364108,
+    "matches": 10
+  },
+  "thresholds": {
+    "lowScoreQuantile": 0.25,
+    "lowScoreDecisionValueThreshold": 0.15811772370478439,
+    "minImprovementForSuggestion": 0.02,
+    "windowSeconds": 10
+  },
+  "featureColumns": {
+    "categorical": [
+      "event_primary",
+      "position",
+      "period",
+      "team_id",
+      "possession_flank",
+      "previous_event_primary",
+      "previous_position"
+    ],
+    "numeric": [
+      "minute",
+      "second",
+      "x",
+      "y",
+      "distance_to_goal",
+      "angle_to_goal",
+      "zone_x",
+      "zone_y",
+      "is_final_third",
+      "is_box_entry_zone",
+      "is_u_cluj",
+      "previous_x",
+      "previous_y",
+      "seconds_since_previous_action",
+      "same_player_as_previous",
+      "same_possession_as_previous"
+    ]
+  }
+}

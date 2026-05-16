@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decision Quality Input",
+  "type": "object",
+  "required": [
+    "summary",
+    "players",
+    "phases",
+    "teamStats"
+  ],
+  "properties": {
+    "summary": {
+      "type": "object",
+      "required": [
+        "averageDecisionValue",
+        "lowDecisionPhases",
+        "phasesWithAlternative",
+        "missedShotOrGoalOpportunities"
+      ]
+    },
+    "players": {
+      "type": "object",
+      "required": ["needsSupport"],
+      "properties": {
+        "needsSupport": { "type": "array" }
+      }
+    },
+    "phases": {
+      "type": "object",
+      "required": [
+        "improvablePhases",
+        "missedShotOrGoalOpportunities"
+      ]
+    },
+    "teamStats": {
+      "type": "object",
+      "required": ["decisionByType", "timeline"]
+    }
+  }
+}

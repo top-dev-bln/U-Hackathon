@@ -1,0 +1,9 @@
+{
+  "baseline_weight": 0.75,
+  "decision_weight": 0.25,
+  "severity_thresholds": {
+    "medium": 0.45,
+    "high": 0.6,
+    "critical": 0.8
+  }
+}

@@ -1,0 +1,2 @@
+sample_id,match_id,team_id,team_name,match_date,input1_path,input2_path,split,data_quality
+ucluj_2026_04_18,99042601,9001,FC Universitatea Cluj,2026-04-18,samples/2026-04-18_ucluj_vs_hermannstadt_input1.json,samples/2026-04-18_ucluj_vs_hermannstadt_input2.json,train,weak_labeled

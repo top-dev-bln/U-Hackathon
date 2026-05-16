@@ -1,0 +1,233 @@
+{
+  "fusionOutput": {
+    "combinedInsights": [
+      {
+        "type": "risky_build_up",
+        "category": "build_up",
+        "severity": "critical",
+        "score": 0.8773,
+        "confidence": 0.95,
+        "message": "Build-up actions are unstable and reduce controlled progression.",
+        "recommendation": "Train press-resistant passing triangles with one-touch escape patterns.",
+        "players": [
+          "A. Gorcea",
+          "L. Cristea",
+          "A. Miron",
+          "D. Popa"
+        ],
+        "evidence": {
+          "baselineSignals": [
+            "build_up.low_progressive_pass_success",
+            "build_up.low_success_entering_final_third"
+          ],
+          "decisionSignals": [
+            "improvable_phase",
+            "low_decision_phases",
+            "player_needs_support"
+          ]
+        }
+      },
+      {
+        "type": "risky_ball_loss",
+        "category": "ball_loss",
+        "severity": "medium",
+        "score": 0.5231,
+        "confidence": 0.5,
+        "message": "Ball retention risk is high and creates transition exposure.",
+        "recommendation": "Add constrained rondo and own-half exit drills under directional pressure.",
+        "players": [],
+        "evidence": {
+          "baselineSignals": [
+            "ball_loss.dangerous_own_half_losses",
+            "ball_loss.high_ball_losses",
+            "ball_loss.risky_losses_in_own_half"
+          ],
+          "decisionSignals": []
+        }
+      },
+      {
+        "type": "risky_pressing",
+        "category": "pressing",
+        "severity": "low",
+        "score": 0.2213,
+        "confidence": 0.1667,
+        "message": "Pressing effectiveness is below tactical target.",
+        "recommendation": "Drill coordinated counterpressing with first-5-second recovery targets.",
+        "players": [],
+        "evidence": {
+          "baselineSignals": [
+            "pressing.few_high_recoveries"
+          ],
+          "decisionSignals": []
+        }
+      },
+      {
+        "type": "risky_final_third",
+        "category": "final_third",
+        "severity": "low",
+        "score": 0.1522,
+        "confidence": 0.95,
+        "message": "Final-third decisions reduce conversion probability.",
+        "recommendation": "Use shot selection circuits with pre-shot scan constraints.",
+        "players": [
+          "A. Chipciu",
+          "A. Miron",
+          "D. Nistor",
+          "D. Oancea"
+        ],
+        "evidence": {
+          "baselineSignals": [],
+          "decisionSignals": [
+            "improvable_phase",
+            "low_decision_phases",
+            "missed_shot_or_goal_opportunity",
+            "player_needs_support"
+          ]
+        }
+      },
+      {
+        "type": "risky_progression",
+        "category": "progression",
+        "severity": "low",
+        "score": 0.1273,
+        "confidence": 0.5,
+        "message": "Progression quality is inconsistent and limits vertical threat.",
+        "recommendation": "Run third-man progression patterns with carry-vs-pass decision triggers.",
+        "players": [
+          "A. Chipciu"
+        ],
+        "evidence": {
+          "baselineSignals": [],
+          "decisionSignals": [
+            "improvable_phase",
+            "low_decision_phases"
+          ]
+        }
+      }
+    ],
+    "playerPriorities": [
+      {
+        "player": "A. Gorcea",
+        "priority_score": 0.6836,
+        "reasons": [
+          "improvable_phase",
+          "player_needs_support"
+        ],
+        "focus_categories": [
+          "build_up"
+        ],
+        "recommendedAction": "Review build-up decisions under pressure."
+      },
+      {
+        "player": "I. Stoica",
+        "priority_score": 0.6766,
+        "reasons": [
+          "player_needs_support"
+        ],
+        "focus_categories": [
+          "build_up"
+        ],
+        "recommendedAction": "Review build-up decisions under pressure."
+      },
+      {
+        "player": "A. Miron",
+        "priority_score": 0.6669,
+        "reasons": [
+          "improvable_phase",
+          "player_needs_support"
+        ],
+        "focus_categories": [
+          "build_up",
+          "final_third"
+        ],
+        "recommendedAction": "Review build-up decisions under pressure."
+      },
+      {
+        "player": "M. Thiam",
+        "priority_score": 0.5958,
+        "reasons": [
+          "player_needs_support"
+        ],
+        "focus_categories": [
+          "build_up"
+        ],
+        "recommendedAction": "Review build-up decisions under pressure."
+      },
+      {
+        "player": "A. Chipciu",
+        "priority_score": 0.5657,
+        "reasons": [
+          "improvable_phase",
+          "missed_shot_or_goal_opportunity"
+        ],
+        "focus_categories": [
+          "final_third",
+          "progression"
+        ],
+        "recommendedAction": "Review final-third pass/shot selection in constrained scenarios."
+      }
+    ],
+    "trainingFocus": [
+      {
+        "category": "build_up",
+        "priority": "critical",
+        "objective": "Increase pass security under pressure",
+        "drill": "6v4 build-up under press with mandatory support angles"
+      },
+      {
+        "category": "ball_loss",
+        "priority": "medium",
+        "objective": "Reduce dangerous turnovers in own half",
+        "drill": "Directional rondo with immediate transition punishment"
+      },
+      {
+        "category": "pressing",
+        "priority": "low",
+        "objective": "Increase high recoveries after loss",
+        "drill": "Counterpressing wave drill with compactness scoring"
+      }
+    ]
+  },
+  "frontendOutput": {
+    "headline": "Build-up instability is the main tactical risk",
+    "topProblems": [
+      {
+        "type": "risky_build_up",
+        "severity": "critical",
+        "message": "Build-up actions are unstable and reduce controlled progression.",
+        "score": 0.8773
+      },
+      {
+        "type": "risky_ball_loss",
+        "severity": "medium",
+        "message": "Ball retention risk is high and creates transition exposure.",
+        "score": 0.5231
+      },
+      {
+        "type": "risky_pressing",
+        "severity": "low",
+        "message": "Pressing effectiveness is below tactical target.",
+        "score": 0.2213
+      }
+    ],
+    "recommendations": [
+      "Train press-resistant passing triangles with one-touch escape patterns.",
+      "Add constrained rondo and own-half exit drills under directional pressure.",
+      "Drill coordinated counterpressing with first-5-second recovery targets."
+    ]
+  },
+  "meta": {
+    "baselineSignals": 6,
+    "decisionSignals": 22,
+    "fusedCategories": 5,
+    "calibration": {
+      "baseline_weight": 0.75,
+      "decision_weight": 0.25,
+      "severity_thresholds": {
+        "medium": 0.45,
+        "high": 0.6,
+        "critical": 0.8
+      }
+    }
+  }
+}

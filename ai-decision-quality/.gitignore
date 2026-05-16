@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env/config
+.env
+.env.*
+
+# Generated analytics outputs
+u_cluj_decision_quality_event_predictions.csv
+u_cluj_decision_quality_event_predictions.json
+u_cluj_decision_quality_player_scores.csv
+u_cluj_decision_quality_player_scores.json
+u_cluj_only_event_predictions.csv
+u_cluj_only_event_predictions.json
+u_cluj_only_player_scores.csv
+u_cluj_only_player_scores.json

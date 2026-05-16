@@ -1,0 +1,22 @@
+{
+  "match_id": 0,
+  "team": { "id": 0, "name": "string" },
+  "period": "full|1H|2H",
+  "total_losses": 0,
+  "by_zone": { "defensive_third": 0, "middle_third": 0, "attacking_third": 0 },
+  "by_type": { "inaccurate_pass": 0, "duel_lost": 0, "loss_tag": 0 },
+  "by_player": [
+    { "id": 0, "name": "string", "position": "string|null", "losses": 0, "dangerous_losses": 0 }
+  ],
+  "grid": { "cols": 12, "rows": 8, "cells": [[0]] },
+  "danger_score": 0.0,
+  "events": [
+    {
+      "minute": 0, "second": 0, "period": "1H|2H|null",
+      "player_id": 0, "player_name": "string|null", "player_position": "string|null",
+      "x": 0.0, "y": 0.0,
+      "zone": "defensive_third|middle_third|attacking_third",
+      "type": "inaccurate_pass|duel_lost|loss_tag"
+    }
+  ]
+}

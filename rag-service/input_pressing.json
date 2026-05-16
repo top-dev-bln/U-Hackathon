@@ -1,0 +1,113 @@
+{
+  "match_id": 99042601,
+  "team_id": 9001,
+  "period": "full",
+  "teamPressingEfficiency": 0.49,
+  "firstHalfEfficiency": 0.47,
+  "secondHalfEfficiency": 0.52,
+  "intensityDrop": 0.05,
+  "insight": "Pressing was largely ineffective, pressing improved in the second half.",
+  "players": [
+    {
+      "id": 1002,
+      "name": "D. Oancea",
+      "position": "RB",
+      "pressingDuels": 6,
+      "won": 4,
+      "efficiency": 0.67,
+      "inOpponentHalf": 0,
+      "intensityDrop": -0.25
+    },
+    {
+      "id": 1010,
+      "name": "I. Stoica",
+      "position": "LAMF",
+      "pressingDuels": 8,
+      "won": 5,
+      "efficiency": 0.62,
+      "inOpponentHalf": 8,
+      "intensityDrop": 0.17
+    },
+    {
+      "id": 1011,
+      "name": "M. Thiam",
+      "position": "CF",
+      "pressingDuels": 5,
+      "won": 3,
+      "efficiency": 0.6,
+      "inOpponentHalf": 5,
+      "intensityDrop": 0.75
+    },
+    {
+      "id": 1006,
+      "name": "O. Bic",
+      "position": "DMF",
+      "pressingDuels": 10,
+      "won": 5,
+      "efficiency": 0.5,
+      "inOpponentHalf": 3,
+      "intensityDrop": 0.24
+    },
+    {
+      "id": 1005,
+      "name": "A. Chipciu",
+      "position": "LB",
+      "pressingDuels": 4,
+      "won": 2,
+      "efficiency": 0.5,
+      "inOpponentHalf": 0,
+      "intensityDrop": 1
+    },
+    {
+      "id": 1003,
+      "name": "L. Cristea",
+      "position": "RCB",
+      "pressingDuels": 9,
+      "won": 4,
+      "efficiency": 0.44,
+      "inOpponentHalf": 0,
+      "intensityDrop": -0.5
+    },
+    {
+      "id": 1007,
+      "name": "D. Nistor",
+      "position": "CMF",
+      "pressingDuels": 5,
+      "won": 2,
+      "efficiency": 0.4,
+      "inOpponentHalf": 3,
+      "intensityDrop": -0.5
+    },
+    {
+      "id": 1004,
+      "name": "A. Miron",
+      "position": "LCB",
+      "pressingDuels": 4,
+      "won": 1,
+      "efficiency": 0.25,
+      "inOpponentHalf": 0,
+      "intensityDrop": -0.5
+    },
+    {
+      "id": 1009,
+      "name": "D. Popa",
+      "position": "AMF",
+      "pressingDuels": 1,
+      "won": 0,
+      "efficiency": 0,
+      "inOpponentHalf": 1,
+      "intensityDrop": 0
+    },
+    {
+      "id": 1008,
+      "name": "V. Gheorghe",
+      "position": "RAMF",
+      "pressingDuels": 1,
+      "won": 0,
+      "efficiency": 0,
+      "inOpponentHalf": 1,
+      "intensityDrop": 0
+    }
+  ],
+  "topPresser": "D. Oancea"
+}

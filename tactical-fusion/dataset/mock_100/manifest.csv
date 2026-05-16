@@ -1,0 +1,101 @@
+sample_id,match_id,team_id,team_name,match_date,input1_path,input2_path,split,data_quality
+mock_2025-08-01_9021_001,99000001,9021,FC Hermannstadt,2025-08-01,samples/mock_2025-08-01_9021_001_input1.json,samples/mock_2025-08-01_9021_001_input2.json,train,synthetic
+mock_2025-08-04_9013_002,99000002,9013,Sepsi OSK,2025-08-04,samples/mock_2025-08-04_9013_002_input1.json,samples/mock_2025-08-04_9013_002_input2.json,train,synthetic
+mock_2025-08-07_9016_003,99000003,9016,CFR Cluj,2025-08-07,samples/mock_2025-08-07_9016_003_input1.json,samples/mock_2025-08-07_9016_003_input2.json,train,synthetic
+mock_2025-08-10_9013_004,99000004,9013,U Craiova 1948,2025-08-10,samples/mock_2025-08-10_9013_004_input1.json,samples/mock_2025-08-10_9013_004_input2.json,train,synthetic
+mock_2025-08-13_9019_005,99000005,9019,FC Universitatea Cluj,2025-08-13,samples/mock_2025-08-13_9019_005_input1.json,samples/mock_2025-08-13_9019_005_input2.json,train,synthetic
+mock_2025-08-16_9015_006,99000006,9015,U Craiova 1948,2025-08-16,samples/mock_2025-08-16_9015_006_input1.json,samples/mock_2025-08-16_9015_006_input2.json,train,synthetic
+mock_2025-08-19_9015_007,99000007,9015,Rapid Bucuresti,2025-08-19,samples/mock_2025-08-19_9015_007_input1.json,samples/mock_2025-08-19_9015_007_input2.json,train,synthetic
+mock_2025-08-22_9001_008,99000008,9001,Petrolul Ploiesti,2025-08-22,samples/mock_2025-08-22_9001_008_input1.json,samples/mock_2025-08-22_9001_008_input2.json,train,synthetic
+mock_2025-08-25_9027_009,99000009,9027,U Craiova 1948,2025-08-25,samples/mock_2025-08-25_9027_009_input1.json,samples/mock_2025-08-25_9027_009_input2.json,train,synthetic
+mock_2025-08-28_9028_010,99000010,9028,FCSB,2025-08-28,samples/mock_2025-08-28_9028_010_input1.json,samples/mock_2025-08-28_9028_010_input2.json,train,synthetic
+mock_2025-08-31_9007_011,99000011,9007,FC Hermannstadt,2025-08-31,samples/mock_2025-08-31_9007_011_input1.json,samples/mock_2025-08-31_9007_011_input2.json,train,synthetic
+mock_2025-09-03_9026_012,99000012,9026,FC Universitatea Cluj,2025-09-03,samples/mock_2025-09-03_9026_012_input1.json,samples/mock_2025-09-03_9026_012_input2.json,train,synthetic
+mock_2025-09-06_9009_013,99000013,9009,Rapid Bucuresti,2025-09-06,samples/mock_2025-09-06_9009_013_input1.json,samples/mock_2025-09-06_9009_013_input2.json,train,synthetic
+mock_2025-09-09_9026_014,99000014,9026,FC Hermannstadt,2025-09-09,samples/mock_2025-09-09_9026_014_input1.json,samples/mock_2025-09-09_9026_014_input2.json,train,synthetic
+mock_2025-09-12_9013_015,99000015,9013,FCSB,2025-09-12,samples/mock_2025-09-12_9013_015_input1.json,samples/mock_2025-09-12_9013_015_input2.json,train,synthetic
+mock_2025-09-15_9009_016,99000016,9009,FC Universitatea Cluj,2025-09-15,samples/mock_2025-09-15_9009_016_input1.json,samples/mock_2025-09-15_9009_016_input2.json,train,synthetic
+mock_2025-09-18_9022_017,99000017,9022,U Craiova 1948,2025-09-18,samples/mock_2025-09-18_9022_017_input1.json,samples/mock_2025-09-18_9022_017_input2.json,train,synthetic
+mock_2025-09-21_9007_018,99000018,9007,CFR Cluj,2025-09-21,samples/mock_2025-09-21_9007_018_input1.json,samples/mock_2025-09-21_9007_018_input2.json,train,synthetic
+mock_2025-09-24_9003_019,99000019,9003,FC Universitatea Cluj,2025-09-24,samples/mock_2025-09-24_9003_019_input1.json,samples/mock_2025-09-24_9003_019_input2.json,train,synthetic
+mock_2025-09-27_9024_020,99000020,9024,UTA Arad,2025-09-27,samples/mock_2025-09-27_9024_020_input1.json,samples/mock_2025-09-27_9024_020_input2.json,train,synthetic
+mock_2025-09-30_9002_021,99000021,9002,CFR Cluj,2025-09-30,samples/mock_2025-09-30_9002_021_input1.json,samples/mock_2025-09-30_9002_021_input2.json,train,synthetic
+mock_2025-10-03_9019_022,99000022,9019,FC Universitatea Cluj,2025-10-03,samples/mock_2025-10-03_9019_022_input1.json,samples/mock_2025-10-03_9019_022_input2.json,train,synthetic
+mock_2025-10-06_9007_023,99000023,9007,FCSB,2025-10-06,samples/mock_2025-10-06_9007_023_input1.json,samples/mock_2025-10-06_9007_023_input2.json,train,synthetic
+mock_2025-10-09_9017_024,99000024,9017,Sepsi OSK,2025-10-09,samples/mock_2025-10-09_9017_024_input1.json,samples/mock_2025-10-09_9017_024_input2.json,train,synthetic
+mock_2025-10-12_9026_025,99000025,9026,Petrolul Ploiesti,2025-10-12,samples/mock_2025-10-12_9026_025_input1.json,samples/mock_2025-10-12_9026_025_input2.json,train,synthetic
+mock_2025-10-15_9030_026,99000026,9030,U Craiova 1948,2025-10-15,samples/mock_2025-10-15_9030_026_input1.json,samples/mock_2025-10-15_9030_026_input2.json,train,synthetic
+mock_2025-10-18_9026_027,99000027,9026,FC Universitatea Cluj,2025-10-18,samples/mock_2025-10-18_9026_027_input1.json,samples/mock_2025-10-18_9026_027_input2.json,train,synthetic
+mock_2025-10-21_9018_028,99000028,9018,Petrolul Ploiesti,2025-10-21,samples/mock_2025-10-21_9018_028_input1.json,samples/mock_2025-10-21_9018_028_input2.json,train,synthetic
+mock_2025-10-24_9023_029,99000029,9023,U Craiova 1948,2025-10-24,samples/mock_2025-10-24_9023_029_input1.json,samples/mock_2025-10-24_9023_029_input2.json,train,synthetic
+mock_2025-10-27_9022_030,99000030,9022,CFR Cluj,2025-10-27,samples/mock_2025-10-27_9022_030_input1.json,samples/mock_2025-10-27_9022_030_input2.json,train,synthetic
+mock_2025-10-30_9013_031,99000031,9013,FC Universitatea Cluj,2025-10-30,samples/mock_2025-10-30_9013_031_input1.json,samples/mock_2025-10-30_9013_031_input2.json,train,synthetic
+mock_2025-11-02_9025_032,99000032,9025,FCSB,2025-11-02,samples/mock_2025-11-02_9025_032_input1.json,samples/mock_2025-11-02_9025_032_input2.json,train,synthetic
+mock_2025-11-05_9008_033,99000033,9008,FC Hermannstadt,2025-11-05,samples/mock_2025-11-05_9008_033_input1.json,samples/mock_2025-11-05_9008_033_input2.json,train,synthetic
+mock_2025-11-08_9007_034,99000034,9007,FCSB,2025-11-08,samples/mock_2025-11-08_9007_034_input1.json,samples/mock_2025-11-08_9007_034_input2.json,train,synthetic
+mock_2025-11-11_9012_035,99000035,9012,Farul Constanta,2025-11-11,samples/mock_2025-11-11_9012_035_input1.json,samples/mock_2025-11-11_9012_035_input2.json,train,synthetic
+mock_2025-11-14_9013_036,99000036,9013,U Craiova 1948,2025-11-14,samples/mock_2025-11-14_9013_036_input1.json,samples/mock_2025-11-14_9013_036_input2.json,train,synthetic
+mock_2025-11-17_9013_037,99000037,9013,CFR Cluj,2025-11-17,samples/mock_2025-11-17_9013_037_input1.json,samples/mock_2025-11-17_9013_037_input2.json,train,synthetic
+mock_2025-11-20_9005_038,99000038,9005,FC Hermannstadt,2025-11-20,samples/mock_2025-11-20_9005_038_input1.json,samples/mock_2025-11-20_9005_038_input2.json,train,synthetic
+mock_2025-11-23_9017_039,99000039,9017,Sepsi OSK,2025-11-23,samples/mock_2025-11-23_9017_039_input1.json,samples/mock_2025-11-23_9017_039_input2.json,train,synthetic
+mock_2025-11-26_9019_040,99000040,9019,CFR Cluj,2025-11-26,samples/mock_2025-11-26_9019_040_input1.json,samples/mock_2025-11-26_9019_040_input2.json,train,synthetic
+mock_2025-11-29_9028_041,99000041,9028,UTA Arad,2025-11-29,samples/mock_2025-11-29_9028_041_input1.json,samples/mock_2025-11-29_9028_041_input2.json,train,synthetic
+mock_2025-12-02_9011_042,99000042,9011,Rapid Bucuresti,2025-12-02,samples/mock_2025-12-02_9011_042_input1.json,samples/mock_2025-12-02_9011_042_input2.json,train,synthetic
+mock_2025-12-05_9023_043,99000043,9023,FC Hermannstadt,2025-12-05,samples/mock_2025-12-05_9023_043_input1.json,samples/mock_2025-12-05_9023_043_input2.json,train,synthetic
+mock_2025-12-08_9001_044,99000044,9001,FC Hermannstadt,2025-12-08,samples/mock_2025-12-08_9001_044_input1.json,samples/mock_2025-12-08_9001_044_input2.json,train,synthetic
+mock_2025-12-11_9012_045,99000045,9012,FCSB,2025-12-11,samples/mock_2025-12-11_9012_045_input1.json,samples/mock_2025-12-11_9012_045_input2.json,train,synthetic
+mock_2025-12-14_9025_046,99000046,9025,U Craiova 1948,2025-12-14,samples/mock_2025-12-14_9025_046_input1.json,samples/mock_2025-12-14_9025_046_input2.json,train,synthetic
+mock_2025-12-17_9011_047,99000047,9011,Farul Constanta,2025-12-17,samples/mock_2025-12-17_9011_047_input1.json,samples/mock_2025-12-17_9011_047_input2.json,train,synthetic
+mock_2025-12-20_9002_048,99000048,9002,Farul Constanta,2025-12-20,samples/mock_2025-12-20_9002_048_input1.json,samples/mock_2025-12-20_9002_048_input2.json,train,synthetic
+mock_2025-12-23_9027_049,99000049,9027,UTA Arad,2025-12-23,samples/mock_2025-12-23_9027_049_input1.json,samples/mock_2025-12-23_9027_049_input2.json,train,synthetic
+mock_2025-12-26_9002_050,99000050,9002,U Craiova 1948,2025-12-26,samples/mock_2025-12-26_9002_050_input1.json,samples/mock_2025-12-26_9002_050_input2.json,train,synthetic
+mock_2025-12-29_9007_051,99000051,9007,Rapid Bucuresti,2025-12-29,samples/mock_2025-12-29_9007_051_input1.json,samples/mock_2025-12-29_9007_051_input2.json,train,synthetic
+mock_2026-01-01_9024_052,99000052,9024,CFR Cluj,2026-01-01,samples/mock_2026-01-01_9024_052_input1.json,samples/mock_2026-01-01_9024_052_input2.json,train,synthetic
+mock_2026-01-04_9015_053,99000053,9015,Rapid Bucuresti,2026-01-04,samples/mock_2026-01-04_9015_053_input1.json,samples/mock_2026-01-04_9015_053_input2.json,train,synthetic
+mock_2026-01-07_9020_054,99000054,9020,U Craiova 1948,2026-01-07,samples/mock_2026-01-07_9020_054_input1.json,samples/mock_2026-01-07_9020_054_input2.json,train,synthetic
+mock_2026-01-10_9013_055,99000055,9013,FC Hermannstadt,2026-01-10,samples/mock_2026-01-10_9013_055_input1.json,samples/mock_2026-01-10_9013_055_input2.json,train,synthetic
+mock_2026-01-13_9003_056,99000056,9003,U Craiova 1948,2026-01-13,samples/mock_2026-01-13_9003_056_input1.json,samples/mock_2026-01-13_9003_056_input2.json,train,synthetic
+mock_2026-01-16_9023_057,99000057,9023,FC Hermannstadt,2026-01-16,samples/mock_2026-01-16_9023_057_input1.json,samples/mock_2026-01-16_9023_057_input2.json,train,synthetic
+mock_2026-01-19_9027_058,99000058,9027,CFR Cluj,2026-01-19,samples/mock_2026-01-19_9027_058_input1.json,samples/mock_2026-01-19_9027_058_input2.json,train,synthetic
+mock_2026-01-22_9025_059,99000059,9025,Petrolul Ploiesti,2026-01-22,samples/mock_2026-01-22_9025_059_input1.json,samples/mock_2026-01-22_9025_059_input2.json,train,synthetic
+mock_2026-01-25_9022_060,99000060,9022,FCSB,2026-01-25,samples/mock_2026-01-25_9022_060_input1.json,samples/mock_2026-01-25_9022_060_input2.json,train,synthetic
+mock_2026-01-28_9014_061,99000061,9014,FC Universitatea Cluj,2026-01-28,samples/mock_2026-01-28_9014_061_input1.json,samples/mock_2026-01-28_9014_061_input2.json,train,synthetic
+mock_2026-01-31_9021_062,99000062,9021,UTA Arad,2026-01-31,samples/mock_2026-01-31_9021_062_input1.json,samples/mock_2026-01-31_9021_062_input2.json,train,synthetic
+mock_2026-02-03_9010_063,99000063,9010,U Craiova 1948,2026-02-03,samples/mock_2026-02-03_9010_063_input1.json,samples/mock_2026-02-03_9010_063_input2.json,train,synthetic
+mock_2026-02-06_9030_064,99000064,9030,FC Universitatea Cluj,2026-02-06,samples/mock_2026-02-06_9030_064_input1.json,samples/mock_2026-02-06_9030_064_input2.json,train,synthetic
+mock_2026-02-09_9017_065,99000065,9017,Petrolul Ploiesti,2026-02-09,samples/mock_2026-02-09_9017_065_input1.json,samples/mock_2026-02-09_9017_065_input2.json,train,synthetic
+mock_2026-02-12_9007_066,99000066,9007,FC Universitatea Cluj,2026-02-12,samples/mock_2026-02-12_9007_066_input1.json,samples/mock_2026-02-12_9007_066_input2.json,train,synthetic
+mock_2026-02-15_9020_067,99000067,9020,Farul Constanta,2026-02-15,samples/mock_2026-02-15_9020_067_input1.json,samples/mock_2026-02-15_9020_067_input2.json,train,synthetic
+mock_2026-02-18_9012_068,99000068,9012,Sepsi OSK,2026-02-18,samples/mock_2026-02-18_9012_068_input1.json,samples/mock_2026-02-18_9012_068_input2.json,train,synthetic
+mock_2026-02-21_9030_069,99000069,9030,Rapid Bucuresti,2026-02-21,samples/mock_2026-02-21_9030_069_input1.json,samples/mock_2026-02-21_9030_069_input2.json,train,synthetic
+mock_2026-02-24_9018_070,99000070,9018,U Craiova 1948,2026-02-24,samples/mock_2026-02-24_9018_070_input1.json,samples/mock_2026-02-24_9018_070_input2.json,train,synthetic
+mock_2026-02-27_9005_071,99000071,9005,FC Hermannstadt,2026-02-27,samples/mock_2026-02-27_9005_071_input1.json,samples/mock_2026-02-27_9005_071_input2.json,val,synthetic
+mock_2026-03-02_9002_072,99000072,9002,Rapid Bucuresti,2026-03-02,samples/mock_2026-03-02_9002_072_input1.json,samples/mock_2026-03-02_9002_072_input2.json,val,synthetic
+mock_2026-03-05_9014_073,99000073,9014,FCSB,2026-03-05,samples/mock_2026-03-05_9014_073_input1.json,samples/mock_2026-03-05_9014_073_input2.json,val,synthetic
+mock_2026-03-08_9005_074,99000074,9005,Farul Constanta,2026-03-08,samples/mock_2026-03-08_9005_074_input1.json,samples/mock_2026-03-08_9005_074_input2.json,val,synthetic
+mock_2026-03-11_9003_075,99000075,9003,Sepsi OSK,2026-03-11,samples/mock_2026-03-11_9003_075_input1.json,samples/mock_2026-03-11_9003_075_input2.json,val,synthetic
+mock_2026-03-14_9004_076,99000076,9004,Sepsi OSK,2026-03-14,samples/mock_2026-03-14_9004_076_input1.json,samples/mock_2026-03-14_9004_076_input2.json,val,synthetic
+mock_2026-03-17_9018_077,99000077,9018,UTA Arad,2026-03-17,samples/mock_2026-03-17_9018_077_input1.json,samples/mock_2026-03-17_9018_077_input2.json,val,synthetic
+mock_2026-03-20_9028_078,99000078,9028,UTA Arad,2026-03-20,samples/mock_2026-03-20_9028_078_input1.json,samples/mock_2026-03-20_9028_078_input2.json,val,synthetic
+mock_2026-03-23_9014_079,99000079,9014,FC Universitatea Cluj,2026-03-23,samples/mock_2026-03-23_9014_079_input1.json,samples/mock_2026-03-23_9014_079_input2.json,val,synthetic
+mock_2026-03-26_9009_080,99000080,9009,Rapid Bucuresti,2026-03-26,samples/mock_2026-03-26_9009_080_input1.json,samples/mock_2026-03-26_9009_080_input2.json,val,synthetic
+mock_2026-03-29_9030_081,99000081,9030,Petrolul Ploiesti,2026-03-29,samples/mock_2026-03-29_9030_081_input1.json,samples/mock_2026-03-29_9030_081_input2.json,val,synthetic
+mock_2026-04-01_9013_082,99000082,9013,FC Hermannstadt,2026-04-01,samples/mock_2026-04-01_9013_082_input1.json,samples/mock_2026-04-01_9013_082_input2.json,val,synthetic
+mock_2026-04-04_9001_083,99000083,9001,Petrolul Ploiesti,2026-04-04,samples/mock_2026-04-04_9001_083_input1.json,samples/mock_2026-04-04_9001_083_input2.json,val,synthetic
+mock_2026-04-07_9016_084,99000084,9016,Rapid Bucuresti,2026-04-07,samples/mock_2026-04-07_9016_084_input1.json,samples/mock_2026-04-07_9016_084_input2.json,val,synthetic
+mock_2026-04-10_9019_085,99000085,9019,Farul Constanta,2026-04-10,samples/mock_2026-04-10_9019_085_input1.json,samples/mock_2026-04-10_9019_085_input2.json,val,synthetic
+mock_2026-04-13_9029_086,99000086,9029,Rapid Bucuresti,2026-04-13,samples/mock_2026-04-13_9029_086_input1.json,samples/mock_2026-04-13_9029_086_input2.json,test,synthetic
+mock_2026-04-16_9010_087,99000087,9010,Farul Constanta,2026-04-16,samples/mock_2026-04-16_9010_087_input1.json,samples/mock_2026-04-16_9010_087_input2.json,test,synthetic
+mock_2026-04-19_9001_088,99000088,9001,UTA Arad,2026-04-19,samples/mock_2026-04-19_9001_088_input1.json,samples/mock_2026-04-19_9001_088_input2.json,test,synthetic
+mock_2026-04-22_9029_089,99000089,9029,FC Hermannstadt,2026-04-22,samples/mock_2026-04-22_9029_089_input1.json,samples/mock_2026-04-22_9029_089_input2.json,test,synthetic
+mock_2026-04-25_9008_090,99000090,9008,CFR Cluj,2026-04-25,samples/mock_2026-04-25_9008_090_input1.json,samples/mock_2026-04-25_9008_090_input2.json,test,synthetic
+mock_2026-04-28_9028_091,99000091,9028,CFR Cluj,2026-04-28,samples/mock_2026-04-28_9028_091_input1.json,samples/mock_2026-04-28_9028_091_input2.json,test,synthetic
+mock_2026-05-01_9006_092,99000092,9006,Petrolul Ploiesti,2026-05-01,samples/mock_2026-05-01_9006_092_input1.json,samples/mock_2026-05-01_9006_092_input2.json,test,synthetic
+mock_2026-05-04_9023_093,99000093,9023,CFR Cluj,2026-05-04,samples/mock_2026-05-04_9023_093_input1.json,samples/mock_2026-05-04_9023_093_input2.json,test,synthetic
+mock_2026-05-07_9019_094,99000094,9019,FC Universitatea Cluj,2026-05-07,samples/mock_2026-05-07_9019_094_input1.json,samples/mock_2026-05-07_9019_094_input2.json,test,synthetic
+mock_2026-05-10_9014_095,99000095,9014,FC Hermannstadt,2026-05-10,samples/mock_2026-05-10_9014_095_input1.json,samples/mock_2026-05-10_9014_095_input2.json,test,synthetic
+mock_2026-05-13_9020_096,99000096,9020,FCSB,2026-05-13,samples/mock_2026-05-13_9020_096_input1.json,samples/mock_2026-05-13_9020_096_input2.json,test,synthetic
+mock_2026-05-16_9004_097,99000097,9004,U Craiova 1948,2026-05-16,samples/mock_2026-05-16_9004_097_input1.json,samples/mock_2026-05-16_9004_097_input2.json,test,synthetic
+mock_2026-05-19_9024_098,99000098,9024,FC Universitatea Cluj,2026-05-19,samples/mock_2026-05-19_9024_098_input1.json,samples/mock_2026-05-19_9024_098_input2.json,test,synthetic
+mock_2026-05-22_9010_099,99000099,9010,FC Universitatea Cluj,2026-05-22,samples/mock_2026-05-22_9010_099_input1.json,samples/mock_2026-05-22_9010_099_input2.json,test,synthetic
+mock_2026-05-25_9008_100,99000100,9008,CFR Cluj,2026-05-25,samples/mock_2026-05-25_9008_100_input1.json,samples/mock_2026-05-25_9008_100_input2.json,test,synthetic

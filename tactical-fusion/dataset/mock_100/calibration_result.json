@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-04-25",
+  "dataset_dir": "dataset\\mock_100",
+  "search": {
+    "iterations": 760,
+    "baseline_weight_range": [
+      0.3,
+      0.75,
+      0.05
+    ],
+    "medium_threshold_range": [
+      0.35,
+      0.5,
+      0.05
+    ],
+    "high_threshold_range": [
+      0.55,
+      0.75,
+      0.05
+    ],
+    "critical_threshold_range": [
+      0.75,
+      0.9,
+      0.05
+    ]
+  },
+  "best_config": {
+    "baseline_weight": 0.75,
+    "decision_weight": 0.25,
+    "severity_thresholds": {
+      "medium": 0.45,
+      "high": 0.6,
+      "critical": 0.8
+    }
+  },
+  "metrics": {
+    "train": {
+      "mae": 0.085442,
+      "band_accuracy": 0.711905,
+      "top1_accuracy": 0.685714,
+      "top3_recall": 0.82381,
+      "objective": 0.246751,
+      "samples": 70
+    },
+    "val": {
+      "mae": 0.090845,
+      "band_accuracy": 0.633333,
+      "top1_accuracy": 0.533333,
+      "top3_recall": 0.777778,
+      "objective": 0.309178,
+      "samples": 15
+    },
+    "test": {
+      "mae": 0.087144,
+      "band_accuracy": 0.655556,
+      "top1_accuracy": 0.866667,
+      "top3_recall": 0.8,
+      "objective": 0.229921,
+      "samples": 15
+    },
+    "baseline_default": {
+      "val": {
+        "mae": 0.16109,
+        "band_accuracy": 0.5,
+        "top1_accuracy": 0.333333,
+        "top3_recall": 0.555556,
+        "objective": 0.48609,
+        "samples": 15
+      },
+      "test": {
+        "mae": 0.151974,
+        "band_accuracy": 0.511111,
+        "top1_accuracy": 0.6,
+        "top3_recall": 0.666667,
+        "objective": 0.404196,
+        "samples": 15
+      }
+    }
+  },
+  "dataset_split_counts": {
+    "train": 70,
+    "val": 15,
+    "test": 15,
+    "total": 100
+  }
+}

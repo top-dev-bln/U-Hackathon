@@ -1,0 +1,25 @@
+{
+  "match_id": 0,
+  "team": { "id": 0, "name": "string" },
+  "period": "full|1H|2H",
+  "total_attempts": 0,
+  "total_completed": 0,
+  "completion_rate": 0.0,
+  "by_type": { "progressive": 0, "through": 0 },
+  "by_target_zone": { "defensive_third": 0, "middle_third": 0, "attacking_third": 0 },
+  "by_player": [
+    { "id": 0, "name": "string", "position": "string|null", "attempts": 0, "completed": 0, "completion_rate": 0.0 }
+  ],
+  "events": [
+    {
+      "minute": 0, "second": 0, "period": "1H|2H|null",
+      "type": "progressive|through",
+      "accurate": true,
+      "passer_id": 0, "passer_name": "string|null", "passer_position": "string|null",
+      "recipient_id": 0, "recipient_name": "string|null", "recipient_position": "string|null",
+      "start_x": 0.0, "start_y": 0.0, "end_x": 0.0, "end_y": 0.0,
+      "length": 0.0,
+      "target_zone": "defensive_third|middle_third|attacking_third"
+    }
+  ]
+}
